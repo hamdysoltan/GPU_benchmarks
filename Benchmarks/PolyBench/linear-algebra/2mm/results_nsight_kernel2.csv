@@ -1,0 +1,341 @@
+==WARNING== Note: Running with uncontrolled GPU caches. Profiling results may be inconsistent.
+==WARNING== Note: Running with unmodified GPU clocks. If not controlled otherwise, profiling results may be inconsistent.
+==PROF== Connected to process 55692 (/home/hamdy/GPGPUs-Workloads/Benchmarks/PolyBench/linear-algebra/2mm/2mm.out)
+setting device 0 with name NVIDIA A100-PCIE-40GB
+
+
+
+ For Kernel 1: 
+Grid_size is = (19,1)  	 Block size (x,y) is  (32,8) 
+
+
+ For Kernel 2: 
+Grid_size is = (19,1)  	 Block size (x,y) is  (32,8) 
+GPU Time in seconds:
+0.609133
+==PROF== Disconnected from process 55692
+"ID","Process ID","Process Name","Host Name","Kernel Name","Kernel Time","Context","Stream","Section Name","Metric Name","Metric Unit","Metric Value"
+"0","55692","2mm.out","127.0.0.1","mm2_kernel2(int, int, int, int, float, float, float*, float*, float*)","2023-Jan-02 02:03:11","1","7","Command line profiler metrics","sm__ctas_launched.sum","","1,425"
+==WARNING== Note: Running with uncontrolled GPU caches. Profiling results may be inconsistent.
+==WARNING== Note: Running with unmodified GPU clocks. If not controlled otherwise, profiling results may be inconsistent.
+==PROF== Connected to process 55713 (/home/hamdy/GPGPUs-Workloads/Benchmarks/PolyBench/linear-algebra/2mm/2mm.out)
+setting device 0 with name NVIDIA A100-PCIE-40GB
+
+
+
+ For Kernel 1: 
+Grid_size is = (19,1)  	 Block size (x,y) is  (32,8) 
+
+
+ For Kernel 2: 
+Grid_size is = (19,1)  	 Block size (x,y) is  (32,8) 
+GPU Time in seconds:
+0.841008
+==PROF== Disconnected from process 55713
+"ID","Process ID","Process Name","Host Name","Kernel Name","Kernel Time","Context","Stream","Section Name","Metric Name","Metric Unit","Metric Value"
+"0","55713","2mm.out","127.0.0.1","mm2_kernel2(int, int, int, int, float, float, float*, float*, float*)","2023-Jan-02 02:03:13","1","7","Command line profiler metrics","l1tex__t_sector_hit_rate.pct","%","94.39"
+"0","55713","2mm.out","127.0.0.1","mm2_kernel2(int, int, int, int, float, float, float*, float*, float*)","2023-Jan-02 02:03:13","1","7","Command line profiler metrics","l1tex__t_sector_pipe_lsu_mem_global_op_ld_hit_rate.pct","%","89.83"
+"0","55713","2mm.out","127.0.0.1","mm2_kernel2(int, int, int, int, float, float, float*, float*, float*)","2023-Jan-02 02:03:13","1","7","Command line profiler metrics","lts__t_sector_hit_rate.pct","%","98.73"
+==WARNING== Note: Running with uncontrolled GPU caches. Profiling results may be inconsistent.
+==WARNING== Note: Running with unmodified GPU clocks. If not controlled otherwise, profiling results may be inconsistent.
+==PROF== Connected to process 55734 (/home/hamdy/GPGPUs-Workloads/Benchmarks/PolyBench/linear-algebra/2mm/2mm.out)
+setting device 0 with name NVIDIA A100-PCIE-40GB
+
+
+
+ For Kernel 1: 
+Grid_size is = (19,1)  	 Block size (x,y) is  (32,8) 
+
+
+ For Kernel 2: 
+Grid_size is = (19,1)  	 Block size (x,y) is  (32,8) 
+GPU Time in seconds:
+0.536341
+==PROF== Disconnected from process 55734
+"ID","Process ID","Process Name","Host Name","Kernel Name","Kernel Time","Context","Stream","Section Name","Metric Name","Metric Unit","Metric Value"
+"0","55734","2mm.out","127.0.0.1","mm2_kernel2(int, int, int, int, float, float, float*, float*, float*)","2023-Jan-02 02:03:14","1","7","Command line profiler metrics","sm__sass_inst_executed_op_global.sum","inst","20,542,800"
+"0","55734","2mm.out","127.0.0.1","mm2_kernel2(int, int, int, int, float, float, float*, float*, float*)","2023-Jan-02 02:03:14","1","7","Command line profiler metrics","sm__sass_inst_executed_op_global_ld.sum","inst","13,691,400"
+"0","55734","2mm.out","127.0.0.1","mm2_kernel2(int, int, int, int, float, float, float*, float*, float*)","2023-Jan-02 02:03:14","1","7","Command line profiler metrics","sm__sass_inst_executed_op_global_st.sum","inst","6,851,400"
+==WARNING== Note: Running with uncontrolled GPU caches. Profiling results may be inconsistent.
+==WARNING== Note: Running with unmodified GPU clocks. If not controlled otherwise, profiling results may be inconsistent.
+==PROF== Connected to process 55755 (/home/hamdy/GPGPUs-Workloads/Benchmarks/PolyBench/linear-algebra/2mm/2mm.out)
+setting device 0 with name NVIDIA A100-PCIE-40GB
+
+
+
+ For Kernel 1: 
+Grid_size is = (19,1)  	 Block size (x,y) is  (32,8) 
+
+
+ For Kernel 2: 
+Grid_size is = (19,1)  	 Block size (x,y) is  (32,8) 
+GPU Time in seconds:
+0.525446
+==PROF== Disconnected from process 55755
+"ID","Process ID","Process Name","Host Name","Kernel Name","Kernel Time","Context","Stream","Section Name","Metric Name","Metric Unit","Metric Value"
+"0","55755","2mm.out","127.0.0.1","mm2_kernel2(int, int, int, int, float, float, float*, float*, float*)","2023-Jan-02 02:03:15","1","7","Command line profiler metrics","gpu__cycles_active.max","cycle","692,131"
+"0","55755","2mm.out","127.0.0.1","mm2_kernel2(int, int, int, int, float, float, float*, float*, float*)","2023-Jan-02 02:03:15","1","7","Command line profiler metrics","gpu__cycles_active.min","cycle","692,131"
+"0","55755","2mm.out","127.0.0.1","mm2_kernel2(int, int, int, int, float, float, float*, float*, float*)","2023-Jan-02 02:03:15","1","7","Command line profiler metrics","gpu__cycles_elapsed.max","cycle","692,131"
+"0","55755","2mm.out","127.0.0.1","mm2_kernel2(int, int, int, int, float, float, float*, float*, float*)","2023-Jan-02 02:03:15","1","7","Command line profiler metrics","gpu__time_duration.max","nsecond","922,912"
+==WARNING== Note: Running with uncontrolled GPU caches. Profiling results may be inconsistent.
+==WARNING== Note: Running with unmodified GPU clocks. If not controlled otherwise, profiling results may be inconsistent.
+==PROF== Connected to process 55776 (/home/hamdy/GPGPUs-Workloads/Benchmarks/PolyBench/linear-algebra/2mm/2mm.out)
+setting device 0 with name NVIDIA A100-PCIE-40GB
+
+
+
+ For Kernel 1: 
+Grid_size is = (19,1)  	 Block size (x,y) is  (32,8) 
+
+
+ For Kernel 2: 
+Grid_size is = (19,1)  	 Block size (x,y) is  (32,8) 
+GPU Time in seconds:
+0.611634
+==PROF== Disconnected from process 55776
+"ID","Process ID","Process Name","Host Name","Kernel Name","Kernel Time","Context","Stream","Section Name","Metric Name","Metric Unit","Metric Value"
+"0","55776","2mm.out","127.0.0.1","mm2_kernel2(int, int, int, int, float, float, float*, float*, float*)","2023-Jan-02 02:03:17","1","7","Command line profiler metrics","sm__cycles_active.sum","cycle","60,844,780"
+==WARNING== Note: Running with uncontrolled GPU caches. Profiling results may be inconsistent.
+==WARNING== Note: Running with unmodified GPU clocks. If not controlled otherwise, profiling results may be inconsistent.
+==PROF== Connected to process 55797 (/home/hamdy/GPGPUs-Workloads/Benchmarks/PolyBench/linear-algebra/2mm/2mm.out)
+setting device 0 with name NVIDIA A100-PCIE-40GB
+
+
+
+ For Kernel 1: 
+Grid_size is = (19,1)  	 Block size (x,y) is  (32,8) 
+
+
+ For Kernel 2: 
+Grid_size is = (19,1)  	 Block size (x,y) is  (32,8) 
+GPU Time in seconds:
+0.540378
+==PROF== Disconnected from process 55797
+"ID","Process ID","Process Name","Host Name","Kernel Name","Kernel Time","Context","Stream","Section Name","Metric Name","Metric Unit","Metric Value"
+"0","55797","2mm.out","127.0.0.1","mm2_kernel2(int, int, int, int, float, float, float*, float*, float*)","2023-Jan-02 02:03:18","1","7","Command line profiler metrics","sm__cycles_elapsed.sum","cycle","69,172,530"
+==WARNING== Note: Running with uncontrolled GPU caches. Profiling results may be inconsistent.
+==WARNING== Note: Running with unmodified GPU clocks. If not controlled otherwise, profiling results may be inconsistent.
+==PROF== Connected to process 55818 (/home/hamdy/GPGPUs-Workloads/Benchmarks/PolyBench/linear-algebra/2mm/2mm.out)
+setting device 0 with name NVIDIA A100-PCIE-40GB
+
+
+
+ For Kernel 1: 
+Grid_size is = (19,1)  	 Block size (x,y) is  (32,8) 
+
+
+ For Kernel 2: 
+Grid_size is = (19,1)  	 Block size (x,y) is  (32,8) 
+GPU Time in seconds:
+0.612371
+==PROF== Disconnected from process 55818
+"ID","Process ID","Process Name","Host Name","Kernel Name","Kernel Time","Context","Stream","Section Name","Metric Name","Metric Unit","Metric Value"
+"0","55818","2mm.out","127.0.0.1","mm2_kernel2(int, int, int, int, float, float, float*, float*, float*)","2023-Jan-02 02:03:19","1","7","Command line profiler metrics","sm__inst_executed_pipe_tensor_op_dmma.max","inst","0"
+"0","55818","2mm.out","127.0.0.1","mm2_kernel2(int, int, int, int, float, float, float*, float*, float*)","2023-Jan-02 02:03:19","1","7","Command line profiler metrics","sm__inst_executed_pipe_tensor_op_hmma.max","inst","128"
+"0","55818","2mm.out","127.0.0.1","mm2_kernel2(int, int, int, int, float, float, float*, float*, float*)","2023-Jan-02 02:03:19","1","7","Command line profiler metrics","sm__inst_executed_pipe_tensor_op_imma.max","inst","0"
+==WARNING== Note: Running with uncontrolled GPU caches. Profiling results may be inconsistent.
+==WARNING== Note: Running with unmodified GPU clocks. If not controlled otherwise, profiling results may be inconsistent.
+==PROF== Connected to process 55839 (/home/hamdy/GPGPUs-Workloads/Benchmarks/PolyBench/linear-algebra/2mm/2mm.out)
+setting device 0 with name NVIDIA A100-PCIE-40GB
+
+
+
+ For Kernel 1: 
+Grid_size is = (19,1)  	 Block size (x,y) is  (32,8) 
+
+
+ For Kernel 2: 
+Grid_size is = (19,1)  	 Block size (x,y) is  (32,8) 
+GPU Time in seconds:
+0.614427
+==PROF== Disconnected from process 55839
+"ID","Process ID","Process Name","Host Name","Kernel Name","Kernel Time","Context","Stream","Section Name","Metric Name","Metric Unit","Metric Value"
+"0","55839","2mm.out","127.0.0.1","mm2_kernel2(int, int, int, int, float, float, float*, float*, float*)","2023-Jan-02 02:03:21","1","7","Command line profiler metrics","sm__inst_executed_pipe_tensor_op_dmma.sum","inst","0"
+"0","55839","2mm.out","127.0.0.1","mm2_kernel2(int, int, int, int, float, float, float*, float*, float*)","2023-Jan-02 02:03:21","1","7","Command line profiler metrics","sm__inst_executed_pipe_tensor_op_hmma.sum","inst","11,400"
+"0","55839","2mm.out","127.0.0.1","mm2_kernel2(int, int, int, int, float, float, float*, float*, float*)","2023-Jan-02 02:03:21","1","7","Command line profiler metrics","sm__inst_executed_pipe_tensor_op_imma.sum","inst","0"
+==WARNING== Note: Running with uncontrolled GPU caches. Profiling results may be inconsistent.
+==WARNING== Note: Running with unmodified GPU clocks. If not controlled otherwise, profiling results may be inconsistent.
+==PROF== Connected to process 55860 (/home/hamdy/GPGPUs-Workloads/Benchmarks/PolyBench/linear-algebra/2mm/2mm.out)
+setting device 0 with name NVIDIA A100-PCIE-40GB
+
+
+
+ For Kernel 1: 
+Grid_size is = (19,1)  	 Block size (x,y) is  (32,8) 
+
+
+ For Kernel 2: 
+Grid_size is = (19,1)  	 Block size (x,y) is  (32,8) 
+GPU Time in seconds:
+0.616296
+==PROF== Disconnected from process 55860
+"ID","Process ID","Process Name","Host Name","Kernel Name","Kernel Time","Context","Stream","Section Name","Metric Name","Metric Unit","Metric Value"
+"0","55860","2mm.out","127.0.0.1","mm2_kernel2(int, int, int, int, float, float, float*, float*, float*)","2023-Jan-02 02:03:22","1","7","Command line profiler metrics","sm__pipe_tensor_cycles_active.max","cycle","256"
+"0","55860","2mm.out","127.0.0.1","mm2_kernel2(int, int, int, int, float, float, float*, float*, float*)","2023-Jan-02 02:03:22","1","7","Command line profiler metrics","sm__pipe_tensor_op_dmma_cycles_active.max","inst","0"
+"0","55860","2mm.out","127.0.0.1","mm2_kernel2(int, int, int, int, float, float, float*, float*, float*)","2023-Jan-02 02:03:22","1","7","Command line profiler metrics","sm__pipe_tensor_op_hmma_cycles_active.max","cycle","256"
+"0","55860","2mm.out","127.0.0.1","mm2_kernel2(int, int, int, int, float, float, float*, float*, float*)","2023-Jan-02 02:03:22","1","7","Command line profiler metrics","sm__pipe_tensor_op_imma_cycles_active.max","cycle","0"
+==WARNING== Note: Running with uncontrolled GPU caches. Profiling results may be inconsistent.
+==WARNING== Note: Running with unmodified GPU clocks. If not controlled otherwise, profiling results may be inconsistent.
+==PROF== Connected to process 55881 (/home/hamdy/GPGPUs-Workloads/Benchmarks/PolyBench/linear-algebra/2mm/2mm.out)
+setting device 0 with name NVIDIA A100-PCIE-40GB
+
+
+
+ For Kernel 1: 
+Grid_size is = (19,1)  	 Block size (x,y) is  (32,8) 
+
+
+ For Kernel 2: 
+Grid_size is = (19,1)  	 Block size (x,y) is  (32,8) 
+GPU Time in seconds:
+0.615181
+==PROF== Disconnected from process 55881
+"ID","Process ID","Process Name","Host Name","Kernel Name","Kernel Time","Context","Stream","Section Name","Metric Name","Metric Unit","Metric Value"
+"0","55881","2mm.out","127.0.0.1","mm2_kernel2(int, int, int, int, float, float, float*, float*, float*)","2023-Jan-02 02:03:23","1","7","Command line profiler metrics","sm__pipe_tensor_cycles_active.sum","cycle","22,800"
+"0","55881","2mm.out","127.0.0.1","mm2_kernel2(int, int, int, int, float, float, float*, float*, float*)","2023-Jan-02 02:03:23","1","7","Command line profiler metrics","sm__pipe_tensor_op_dmma_cycles_active.sum","inst","0"
+"0","55881","2mm.out","127.0.0.1","mm2_kernel2(int, int, int, int, float, float, float*, float*, float*)","2023-Jan-02 02:03:23","1","7","Command line profiler metrics","sm__pipe_tensor_op_hmma_cycles_active.sum","cycle","22,800"
+"0","55881","2mm.out","127.0.0.1","mm2_kernel2(int, int, int, int, float, float, float*, float*, float*)","2023-Jan-02 02:03:23","1","7","Command line profiler metrics","sm__pipe_tensor_op_imma_cycles_active.sum","cycle","0"
+==WARNING== Note: Running with uncontrolled GPU caches. Profiling results may be inconsistent.
+==WARNING== Note: Running with unmodified GPU clocks. If not controlled otherwise, profiling results may be inconsistent.
+==PROF== Connected to process 55902 (/home/hamdy/GPGPUs-Workloads/Benchmarks/PolyBench/linear-algebra/2mm/2mm.out)
+setting device 0 with name NVIDIA A100-PCIE-40GB
+
+
+
+ For Kernel 1: 
+Grid_size is = (19,1)  	 Block size (x,y) is  (32,8) 
+
+
+ For Kernel 2: 
+Grid_size is = (19,1)  	 Block size (x,y) is  (32,8) 
+GPU Time in seconds:
+0.617500
+==PROF== Disconnected from process 55902
+"ID","Process ID","Process Name","Host Name","Kernel Name","Kernel Time","Context","Stream","Section Name","Metric Name","Metric Unit","Metric Value"
+"0","55902","2mm.out","127.0.0.1","mm2_kernel2(int, int, int, int, float, float, float*, float*, float*)","2023-Jan-02 02:03:25","1","7","Command line profiler metrics","sm__inst_executed.sum","inst","32,615,400"
+==WARNING== Note: Running with uncontrolled GPU caches. Profiling results may be inconsistent.
+==WARNING== Note: Running with unmodified GPU clocks. If not controlled otherwise, profiling results may be inconsistent.
+==PROF== Connected to process 55923 (/home/hamdy/GPGPUs-Workloads/Benchmarks/PolyBench/linear-algebra/2mm/2mm.out)
+setting device 0 with name NVIDIA A100-PCIE-40GB
+
+
+
+ For Kernel 1: 
+Grid_size is = (19,1)  	 Block size (x,y) is  (32,8) 
+
+
+ For Kernel 2: 
+Grid_size is = (19,1)  	 Block size (x,y) is  (32,8) 
+GPU Time in seconds:
+0.617684
+==PROF== Disconnected from process 55923
+"ID","Process ID","Process Name","Host Name","Kernel Name","Kernel Time","Context","Stream","Section Name","Metric Name","Metric Unit","Metric Value"
+"0","55923","2mm.out","127.0.0.1","mm2_kernel2(int, int, int, int, float, float, float*, float*, float*)","2023-Jan-02 02:03:26","1","7","Command line profiler metrics","sm__inst_executed.max","inst","366,208"
+==WARNING== Note: Running with uncontrolled GPU caches. Profiling results may be inconsistent.
+==WARNING== Note: Running with unmodified GPU clocks. If not controlled otherwise, profiling results may be inconsistent.
+==PROF== Connected to process 55944 (/home/hamdy/GPGPUs-Workloads/Benchmarks/PolyBench/linear-algebra/2mm/2mm.out)
+setting device 0 with name NVIDIA A100-PCIE-40GB
+
+
+
+ For Kernel 1: 
+Grid_size is = (19,1)  	 Block size (x,y) is  (32,8) 
+
+
+ For Kernel 2: 
+Grid_size is = (19,1)  	 Block size (x,y) is  (32,8) 
+GPU Time in seconds:
+0.613451
+==PROF== Disconnected from process 55944
+"ID","Process ID","Process Name","Host Name","Kernel Name","Kernel Time","Context","Stream","Section Name","Metric Name","Metric Unit","Metric Value"
+"0","55944","2mm.out","127.0.0.1","mm2_kernel2(int, int, int, int, float, float, float*, float*, float*)","2023-Jan-02 02:03:28","1","7","Command line profiler metrics","sm__inst_executed_pipe_alu.max","inst","41,216"
+==WARNING== Note: Running with uncontrolled GPU caches. Profiling results may be inconsistent.
+==WARNING== Note: Running with unmodified GPU clocks. If not controlled otherwise, profiling results may be inconsistent.
+==PROF== Connected to process 55965 (/home/hamdy/GPGPUs-Workloads/Benchmarks/PolyBench/linear-algebra/2mm/2mm.out)
+setting device 0 with name NVIDIA A100-PCIE-40GB
+
+
+
+ For Kernel 1: 
+Grid_size is = (19,1)  	 Block size (x,y) is  (32,8) 
+
+
+ For Kernel 2: 
+Grid_size is = (19,1)  	 Block size (x,y) is  (32,8) 
+GPU Time in seconds:
+0.612295
+==PROF== Disconnected from process 55965
+"ID","Process ID","Process Name","Host Name","Kernel Name","Kernel Time","Context","Stream","Section Name","Metric Name","Metric Unit","Metric Value"
+"0","55965","2mm.out","127.0.0.1","mm2_kernel2(int, int, int, int, float, float, float*, float*, float*)","2023-Jan-02 02:03:29","1","7","Command line profiler metrics","sm__inst_executed_pipe_fma.max","inst","87,808"
+==WARNING== Note: Running with uncontrolled GPU caches. Profiling results may be inconsistent.
+==WARNING== Note: Running with unmodified GPU clocks. If not controlled otherwise, profiling results may be inconsistent.
+==PROF== Connected to process 55986 (/home/hamdy/GPGPUs-Workloads/Benchmarks/PolyBench/linear-algebra/2mm/2mm.out)
+setting device 0 with name NVIDIA A100-PCIE-40GB
+
+
+
+ For Kernel 1: 
+Grid_size is = (19,1)  	 Block size (x,y) is  (32,8) 
+
+
+ For Kernel 2: 
+Grid_size is = (19,1)  	 Block size (x,y) is  (32,8) 
+GPU Time in seconds:
+0.616714
+==PROF== Disconnected from process 55986
+"ID","Process ID","Process Name","Host Name","Kernel Name","Kernel Time","Context","Stream","Section Name","Metric Name","Metric Unit","Metric Value"
+"0","55986","2mm.out","127.0.0.1","mm2_kernel2(int, int, int, int, float, float, float*, float*, float*)","2023-Jan-02 02:03:30","1","7","Command line profiler metrics","sm__inst_executed_pipe_fp64.max","inst","0"
+==WARNING== Note: Running with uncontrolled GPU caches. Profiling results may be inconsistent.
+==WARNING== Note: Running with unmodified GPU clocks. If not controlled otherwise, profiling results may be inconsistent.
+==PROF== Connected to process 56007 (/home/hamdy/GPGPUs-Workloads/Benchmarks/PolyBench/linear-algebra/2mm/2mm.out)
+setting device 0 with name NVIDIA A100-PCIE-40GB
+
+
+
+ For Kernel 1: 
+Grid_size is = (19,1)  	 Block size (x,y) is  (32,8) 
+
+
+ For Kernel 2: 
+Grid_size is = (19,1)  	 Block size (x,y) is  (32,8) 
+GPU Time in seconds:
+0.610390
+==PROF== Disconnected from process 56007
+"ID","Process ID","Process Name","Host Name","Kernel Name","Kernel Time","Context","Stream","Section Name","Metric Name","Metric Unit","Metric Value"
+"0","56007","2mm.out","127.0.0.1","mm2_kernel2(int, int, int, int, float, float, float*, float*, float*)","2023-Jan-02 02:03:32","1","7","Command line profiler metrics","sm__pipe_alu_cycles_active.max","cycle","82,432"
+==WARNING== Note: Running with uncontrolled GPU caches. Profiling results may be inconsistent.
+==WARNING== Note: Running with unmodified GPU clocks. If not controlled otherwise, profiling results may be inconsistent.
+==PROF== Connected to process 56051 (/home/hamdy/GPGPUs-Workloads/Benchmarks/PolyBench/linear-algebra/2mm/2mm.out)
+setting device 0 with name NVIDIA A100-PCIE-40GB
+
+
+
+ For Kernel 1: 
+Grid_size is = (19,1)  	 Block size (x,y) is  (32,8) 
+
+
+ For Kernel 2: 
+Grid_size is = (19,1)  	 Block size (x,y) is  (32,8) 
+GPU Time in seconds:
+0.616518
+==PROF== Disconnected from process 56051
+"ID","Process ID","Process Name","Host Name","Kernel Name","Kernel Time","Context","Stream","Section Name","Metric Name","Metric Unit","Metric Value"
+"0","56051","2mm.out","127.0.0.1","mm2_kernel2(int, int, int, int, float, float, float*, float*, float*)","2023-Jan-02 02:03:33","1","7","Command line profiler metrics","sm__pipe_fma_cycles_active.max","cycle","175,616"
+==WARNING== Note: Running with uncontrolled GPU caches. Profiling results may be inconsistent.
+==WARNING== Note: Running with unmodified GPU clocks. If not controlled otherwise, profiling results may be inconsistent.
+==PROF== Connected to process 56092 (/home/hamdy/GPGPUs-Workloads/Benchmarks/PolyBench/linear-algebra/2mm/2mm.out)
+setting device 0 with name NVIDIA A100-PCIE-40GB
+
+
+
+ For Kernel 1: 
+Grid_size is = (19,1)  	 Block size (x,y) is  (32,8) 
+
+
+ For Kernel 2: 
+Grid_size is = (19,1)  	 Block size (x,y) is  (32,8) 
+GPU Time in seconds:
+0.611714
+==PROF== Disconnected from process 56092
+"ID","Process ID","Process Name","Host Name","Kernel Name","Kernel Time","Context","Stream","Section Name","Metric Name","Metric Unit","Metric Value"
+"0","56092","2mm.out","127.0.0.1","mm2_kernel2(int, int, int, int, float, float, float*, float*, float*)","2023-Jan-02 02:03:34","1","7","Command line profiler metrics","sm__pipe_fp64_cycles_active.max","cycle","0"

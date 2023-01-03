@@ -1,0 +1,143 @@
+==PROF== Connected to process 26084 (/home/hamdy/GPGPUs-Workloads/Benchmarks/PolyBench/linear-algebra/3mm/3mm.out)
+setting device 0 with name NVIDIA A100-PCIE-40GB
+GPU Time in seconds:
+0.605125
+==PROF== Disconnected from process 26084
+"ID","Process ID","Process Name","Host Name","Kernel Name","Kernel Time","Context","Stream","Section Name","Metric Name","Metric Unit","Metric Value"
+"0","26084","3mm.out","127.0.0.1","mm3_kernel1(int, int, int, int, int, float*, float*, float*)","2022-Oct-31 05:21:14","1","7","Command line profiler metrics","sm__ctas_launched.sum","","1,024"
+==PROF== Connected to process 26103 (/home/hamdy/GPGPUs-Workloads/Benchmarks/PolyBench/linear-algebra/3mm/3mm.out)
+setting device 0 with name NVIDIA A100-PCIE-40GB
+GPU Time in seconds:
+0.734720
+==PROF== Disconnected from process 26103
+"ID","Process ID","Process Name","Host Name","Kernel Name","Kernel Time","Context","Stream","Section Name","Metric Name","Metric Unit","Metric Value"
+"0","26103","3mm.out","127.0.0.1","mm3_kernel1(int, int, int, int, int, float*, float*, float*)","2022-Oct-31 05:21:25","1","7","Command line profiler metrics","l1tex__t_sector_hit_rate.pct","%","94.45"
+"0","26103","3mm.out","127.0.0.1","mm3_kernel1(int, int, int, int, int, float*, float*, float*)","2022-Oct-31 05:21:25","1","7","Command line profiler metrics","l1tex__t_sector_pipe_lsu_mem_global_op_ld_hit_rate.pct","%","90.15"
+"0","26103","3mm.out","127.0.0.1","mm3_kernel1(int, int, int, int, int, float*, float*, float*)","2022-Oct-31 05:21:25","1","7","Command line profiler metrics","lts__t_request_hit_rate.pct","%","98.93"
+==PROF== Connected to process 26137 (/home/hamdy/GPGPUs-Workloads/Benchmarks/PolyBench/linear-algebra/3mm/3mm.out)
+setting device 0 with name NVIDIA A100-PCIE-40GB
+GPU Time in seconds:
+0.524605
+==PROF== Disconnected from process 26137
+"ID","Process ID","Process Name","Host Name","Kernel Name","Kernel Time","Context","Stream","Section Name","Metric Name","Metric Unit","Metric Value"
+"0","26137","3mm.out","127.0.0.1","mm3_kernel1(int, int, int, int, int, float*, float*, float*)","2022-Oct-31 05:21:37","1","7","Command line profiler metrics","sm__sass_inst_executed_op_global.sum","inst","12,591,104"
+"0","26137","3mm.out","127.0.0.1","mm3_kernel1(int, int, int, int, int, float*, float*, float*)","2022-Oct-31 05:21:37","1","7","Command line profiler metrics","sm__sass_inst_executed_op_global_ld.sum","inst","8,388,608"
+"0","26137","3mm.out","127.0.0.1","mm3_kernel1(int, int, int, int, int, float*, float*, float*)","2022-Oct-31 05:21:37","1","7","Command line profiler metrics","sm__sass_inst_executed_op_global_st.sum","inst","4,202,496"
+==PROF== Connected to process 26156 (/home/hamdy/GPGPUs-Workloads/Benchmarks/PolyBench/linear-algebra/3mm/3mm.out)
+setting device 0 with name NVIDIA A100-PCIE-40GB
+GPU Time in seconds:
+0.525734
+==PROF== Disconnected from process 26156
+"ID","Process ID","Process Name","Host Name","Kernel Name","Kernel Time","Context","Stream","Section Name","Metric Name","Metric Unit","Metric Value"
+"0","26156","3mm.out","127.0.0.1","mm3_kernel1(int, int, int, int, int, float*, float*, float*)","2022-Oct-31 05:21:48","1","7","Command line profiler metrics","gpu__cycles_active.max","cycle","403,337"
+"0","26156","3mm.out","127.0.0.1","mm3_kernel1(int, int, int, int, int, float*, float*, float*)","2022-Oct-31 05:21:48","1","7","Command line profiler metrics","gpu__cycles_active.min","cycle","403,337"
+"0","26156","3mm.out","127.0.0.1","mm3_kernel1(int, int, int, int, int, float*, float*, float*)","2022-Oct-31 05:21:48","1","7","Command line profiler metrics","gpu__cycles_elapsed.max","cycle","403,337"
+"0","26156","3mm.out","127.0.0.1","mm3_kernel1(int, int, int, int, int, float*, float*, float*)","2022-Oct-31 05:21:48","1","7","Command line profiler metrics","gpu__time_duration.max","nsecond","517,152"
+==PROF== Connected to process 26175 (/home/hamdy/GPGPUs-Workloads/Benchmarks/PolyBench/linear-algebra/3mm/3mm.out)
+setting device 0 with name NVIDIA A100-PCIE-40GB
+GPU Time in seconds:
+0.601526
+==PROF== Disconnected from process 26175
+"ID","Process ID","Process Name","Host Name","Kernel Name","Kernel Time","Context","Stream","Section Name","Metric Name","Metric Unit","Metric Value"
+"0","26175","3mm.out","127.0.0.1","mm3_kernel1(int, int, int, int, int, float*, float*, float*)","2022-Oct-31 05:21:59","1","7","Command line profiler metrics","sm__cycles_active.sum","cycle","35,458,688"
+==PROF== Connected to process 26194 (/home/hamdy/GPGPUs-Workloads/Benchmarks/PolyBench/linear-algebra/3mm/3mm.out)
+setting device 0 with name NVIDIA A100-PCIE-40GB
+GPU Time in seconds:
+0.536677
+==PROF== Disconnected from process 26194
+"ID","Process ID","Process Name","Host Name","Kernel Name","Kernel Time","Context","Stream","Section Name","Metric Name","Metric Unit","Metric Value"
+"0","26194","3mm.out","127.0.0.1","mm3_kernel1(int, int, int, int, int, float*, float*, float*)","2022-Oct-31 05:22:10","1","7","Command line profiler metrics","sm__cycles_elapsed.sum","cycle","43,374,556"
+==PROF== Connected to process 26213 (/home/hamdy/GPGPUs-Workloads/Benchmarks/PolyBench/linear-algebra/3mm/3mm.out)
+setting device 0 with name NVIDIA A100-PCIE-40GB
+GPU Time in seconds:
+0.612006
+==PROF== Disconnected from process 26213
+"ID","Process ID","Process Name","Host Name","Kernel Name","Kernel Time","Context","Stream","Section Name","Metric Name","Metric Unit","Metric Value"
+"0","26213","3mm.out","127.0.0.1","mm3_kernel1(int, int, int, int, int, float*, float*, float*)","2022-Oct-31 05:22:22","1","7","Command line profiler metrics","sm__inst_executed_pipe_tensor_op_dmma.max","inst","0"
+"0","26213","3mm.out","127.0.0.1","mm3_kernel1(int, int, int, int, int, float*, float*, float*)","2022-Oct-31 05:22:22","1","7","Command line profiler metrics","sm__inst_executed_pipe_tensor_op_hmma.max","inst","120"
+"0","26213","3mm.out","127.0.0.1","mm3_kernel1(int, int, int, int, int, float*, float*, float*)","2022-Oct-31 05:22:22","1","7","Command line profiler metrics","sm__inst_executed_pipe_tensor_op_imma.max","inst","0"
+==PROF== Connected to process 26241 (/home/hamdy/GPGPUs-Workloads/Benchmarks/PolyBench/linear-algebra/3mm/3mm.out)
+setting device 0 with name NVIDIA A100-PCIE-40GB
+GPU Time in seconds:
+0.611166
+==PROF== Disconnected from process 26241
+"ID","Process ID","Process Name","Host Name","Kernel Name","Kernel Time","Context","Stream","Section Name","Metric Name","Metric Unit","Metric Value"
+"0","26241","3mm.out","127.0.0.1","mm3_kernel1(int, int, int, int, int, float*, float*, float*)","2022-Oct-31 05:22:33","1","7","Command line profiler metrics","sm__inst_executed_pipe_tensor_op_dmma.sum","inst","0"
+"0","26241","3mm.out","127.0.0.1","mm3_kernel1(int, int, int, int, int, float*, float*, float*)","2022-Oct-31 05:22:33","1","7","Command line profiler metrics","sm__inst_executed_pipe_tensor_op_hmma.sum","inst","8,192"
+"0","26241","3mm.out","127.0.0.1","mm3_kernel1(int, int, int, int, int, float*, float*, float*)","2022-Oct-31 05:22:33","1","7","Command line profiler metrics","sm__inst_executed_pipe_tensor_op_imma.sum","inst","0"
+==PROF== Connected to process 26262 (/home/hamdy/GPGPUs-Workloads/Benchmarks/PolyBench/linear-algebra/3mm/3mm.out)
+setting device 0 with name NVIDIA A100-PCIE-40GB
+GPU Time in seconds:
+0.611395
+==PROF== Disconnected from process 26262
+"ID","Process ID","Process Name","Host Name","Kernel Name","Kernel Time","Context","Stream","Section Name","Metric Name","Metric Unit","Metric Value"
+"0","26262","3mm.out","127.0.0.1","mm3_kernel1(int, int, int, int, int, float*, float*, float*)","2022-Oct-31 05:22:44","1","7","Command line profiler metrics","sm__pipe_tensor_cycles_active.max","cycle","240"
+"0","26262","3mm.out","127.0.0.1","mm3_kernel1(int, int, int, int, int, float*, float*, float*)","2022-Oct-31 05:22:44","1","7","Command line profiler metrics","sm__pipe_tensor_op_dmma_cycles_active.max","inst","0"
+"0","26262","3mm.out","127.0.0.1","mm3_kernel1(int, int, int, int, int, float*, float*, float*)","2022-Oct-31 05:22:44","1","7","Command line profiler metrics","sm__pipe_tensor_op_hmma_cycles_active.max","cycle","240"
+"0","26262","3mm.out","127.0.0.1","mm3_kernel1(int, int, int, int, int, float*, float*, float*)","2022-Oct-31 05:22:44","1","7","Command line profiler metrics","sm__pipe_tensor_op_imma_cycles_active.max","cycle","0"
+==PROF== Connected to process 26281 (/home/hamdy/GPGPUs-Workloads/Benchmarks/PolyBench/linear-algebra/3mm/3mm.out)
+setting device 0 with name NVIDIA A100-PCIE-40GB
+GPU Time in seconds:
+0.612405
+==PROF== Disconnected from process 26281
+"ID","Process ID","Process Name","Host Name","Kernel Name","Kernel Time","Context","Stream","Section Name","Metric Name","Metric Unit","Metric Value"
+"0","26281","3mm.out","127.0.0.1","mm3_kernel1(int, int, int, int, int, float*, float*, float*)","2022-Oct-31 05:22:56","1","7","Command line profiler metrics","sm__pipe_tensor_cycles_active.sum","cycle","16,384"
+"0","26281","3mm.out","127.0.0.1","mm3_kernel1(int, int, int, int, int, float*, float*, float*)","2022-Oct-31 05:22:56","1","7","Command line profiler metrics","sm__pipe_tensor_op_dmma_cycles_active.sum","inst","0"
+"0","26281","3mm.out","127.0.0.1","mm3_kernel1(int, int, int, int, int, float*, float*, float*)","2022-Oct-31 05:22:56","1","7","Command line profiler metrics","sm__pipe_tensor_op_hmma_cycles_active.sum","cycle","16,384"
+"0","26281","3mm.out","127.0.0.1","mm3_kernel1(int, int, int, int, int, float*, float*, float*)","2022-Oct-31 05:22:56","1","7","Command line profiler metrics","sm__pipe_tensor_op_imma_cycles_active.sum","cycle","0"
+==PROF== Connected to process 26302 (/home/hamdy/GPGPUs-Workloads/Benchmarks/PolyBench/linear-algebra/3mm/3mm.out)
+setting device 0 with name NVIDIA A100-PCIE-40GB
+GPU Time in seconds:
+0.604723
+==PROF== Disconnected from process 26302
+"ID","Process ID","Process Name","Host Name","Kernel Name","Kernel Time","Context","Stream","Section Name","Metric Name","Metric Unit","Metric Value"
+"0","26302","3mm.out","127.0.0.1","mm3_kernel1(int, int, int, int, int, float*, float*, float*)","2022-Oct-31 05:23:07","1","7","Command line profiler metrics","sm__inst_executed.sum","inst","26,476,544"
+==PROF== Connected to process 26323 (/home/hamdy/GPGPUs-Workloads/Benchmarks/PolyBench/linear-algebra/3mm/3mm.out)
+setting device 0 with name NVIDIA A100-PCIE-40GB
+GPU Time in seconds:
+0.604792
+==PROF== Disconnected from process 26323
+"ID","Process ID","Process Name","Host Name","Kernel Name","Kernel Time","Context","Stream","Section Name","Metric Name","Metric Unit","Metric Value"
+"0","26323","3mm.out","127.0.0.1","mm3_kernel1(int, int, int, int, int, float*, float*, float*)","2022-Oct-31 05:23:18","1","7","Command line profiler metrics","sm__inst_executed.max","inst","361,984"
+==PROF== Connected to process 26343 (/home/hamdy/GPGPUs-Workloads/Benchmarks/PolyBench/linear-algebra/3mm/3mm.out)
+setting device 0 with name NVIDIA A100-PCIE-40GB
+GPU Time in seconds:
+0.607340
+==PROF== Disconnected from process 26343
+"ID","Process ID","Process Name","Host Name","Kernel Name","Kernel Time","Context","Stream","Section Name","Metric Name","Metric Unit","Metric Value"
+"0","26343","3mm.out","127.0.0.1","mm3_kernel1(int, int, int, int, int, float*, float*, float*)","2022-Oct-31 05:23:30","1","7","Command line profiler metrics","sm__inst_executed_pipe_alu.max","inst","93,480"
+==PROF== Connected to process 26370 (/home/hamdy/GPGPUs-Workloads/Benchmarks/PolyBench/linear-algebra/3mm/3mm.out)
+setting device 0 with name NVIDIA A100-PCIE-40GB
+GPU Time in seconds:
+0.605446
+==PROF== Disconnected from process 26370
+"ID","Process ID","Process Name","Host Name","Kernel Name","Kernel Time","Context","Stream","Section Name","Metric Name","Metric Unit","Metric Value"
+"0","26370","3mm.out","127.0.0.1","mm3_kernel1(int, int, int, int, int, float*, float*, float*)","2022-Oct-31 05:23:41","1","7","Command line profiler metrics","sm__inst_executed_pipe_fma.max","inst","93,360"
+==PROF== Connected to process 26393 (/home/hamdy/GPGPUs-Workloads/Benchmarks/PolyBench/linear-algebra/3mm/3mm.out)
+setting device 0 with name NVIDIA A100-PCIE-40GB
+GPU Time in seconds:
+0.608456
+==PROF== Disconnected from process 26393
+"ID","Process ID","Process Name","Host Name","Kernel Name","Kernel Time","Context","Stream","Section Name","Metric Name","Metric Unit","Metric Value"
+"0","26393","3mm.out","127.0.0.1","mm3_kernel1(int, int, int, int, int, float*, float*, float*)","2022-Oct-31 05:23:52","1","7","Command line profiler metrics","sm__inst_executed_pipe_fp64.max","inst","0"
+==PROF== Connected to process 26412 (/home/hamdy/GPGPUs-Workloads/Benchmarks/PolyBench/linear-algebra/3mm/3mm.out)
+setting device 0 with name NVIDIA A100-PCIE-40GB
+GPU Time in seconds:
+0.609805
+==PROF== Disconnected from process 26412
+"ID","Process ID","Process Name","Host Name","Kernel Name","Kernel Time","Context","Stream","Section Name","Metric Name","Metric Unit","Metric Value"
+"0","26412","3mm.out","127.0.0.1","mm3_kernel1(int, int, int, int, int, float*, float*, float*)","2022-Oct-31 05:24:04","1","7","Command line profiler metrics","sm__pipe_alu_cycles_active.max","cycle","186,960"
+==PROF== Connected to process 26431 (/home/hamdy/GPGPUs-Workloads/Benchmarks/PolyBench/linear-algebra/3mm/3mm.out)
+setting device 0 with name NVIDIA A100-PCIE-40GB
+GPU Time in seconds:
+0.608837
+==PROF== Disconnected from process 26431
+"ID","Process ID","Process Name","Host Name","Kernel Name","Kernel Time","Context","Stream","Section Name","Metric Name","Metric Unit","Metric Value"
+"0","26431","3mm.out","127.0.0.1","mm3_kernel1(int, int, int, int, int, float*, float*, float*)","2022-Oct-31 05:24:15","1","7","Command line profiler metrics","sm__pipe_fma_cycles_active.max","cycle","186,720"
+==PROF== Connected to process 26450 (/home/hamdy/GPGPUs-Workloads/Benchmarks/PolyBench/linear-algebra/3mm/3mm.out)
+setting device 0 with name NVIDIA A100-PCIE-40GB
+GPU Time in seconds:
+0.608459
+==PROF== Disconnected from process 26450
+"ID","Process ID","Process Name","Host Name","Kernel Name","Kernel Time","Context","Stream","Section Name","Metric Name","Metric Unit","Metric Value"
+"0","26450","3mm.out","127.0.0.1","mm3_kernel1(int, int, int, int, int, float*, float*, float*)","2022-Oct-31 05:24:26","1","7","Command line profiler metrics","sm__pipe_fp64_cycles_active.max","cycle","0"

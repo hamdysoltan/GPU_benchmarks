@@ -1,0 +1,143 @@
+==PROF== Connected to process 33160 (/home/hamdy/GPGPUs-Workloads/Benchmarks/PolyBench/linear-algebra/bicg/bicg.out)
+setting device 0 with name NVIDIA A100-PCIE-40GB
+GPU Time in seconds:
+0.612472
+==PROF== Disconnected from process 33160
+"ID","Process ID","Process Name","Host Name","Kernel Name","Kernel Time","Context","Stream","Section Name","Metric Name","Metric Unit","Metric Value"
+"0","33160","bicg.out","127.0.0.1","bicg_kernel1(int, int, float*, float*, float*)","2022-Oct-31 07:00:26","1","7","Command line profiler metrics","sm__ctas_launched.sum","","16"
+==PROF== Connected to process 33187 (/home/hamdy/GPGPUs-Workloads/Benchmarks/PolyBench/linear-algebra/bicg/bicg.out)
+setting device 0 with name NVIDIA A100-PCIE-40GB
+GPU Time in seconds:
+0.738667
+==PROF== Disconnected from process 33187
+"ID","Process ID","Process Name","Host Name","Kernel Name","Kernel Time","Context","Stream","Section Name","Metric Name","Metric Unit","Metric Value"
+"0","33187","bicg.out","127.0.0.1","bicg_kernel1(int, int, float*, float*, float*)","2022-Oct-31 07:00:38","1","7","Command line profiler metrics","l1tex__t_sector_hit_rate.pct","%","55.38"
+"0","33187","bicg.out","127.0.0.1","bicg_kernel1(int, int, float*, float*, float*)","2022-Oct-31 07:00:38","1","7","Command line profiler metrics","l1tex__t_sector_pipe_lsu_mem_global_op_ld_hit_rate.pct","%","19.69"
+"0","33187","bicg.out","127.0.0.1","bicg_kernel1(int, int, float*, float*, float*)","2022-Oct-31 07:00:38","1","7","Command line profiler metrics","lts__t_request_hit_rate.pct","%","47.02"
+==PROF== Connected to process 33206 (/home/hamdy/GPGPUs-Workloads/Benchmarks/PolyBench/linear-algebra/bicg/bicg.out)
+setting device 0 with name NVIDIA A100-PCIE-40GB
+GPU Time in seconds:
+0.522102
+==PROF== Disconnected from process 33206
+"ID","Process ID","Process Name","Host Name","Kernel Name","Kernel Time","Context","Stream","Section Name","Metric Name","Metric Unit","Metric Value"
+"0","33206","bicg.out","127.0.0.1","bicg_kernel1(int, int, float*, float*, float*)","2022-Oct-31 07:00:49","1","7","Command line profiler metrics","sm__sass_inst_executed_op_global.sum","inst","1,572,992"
+"0","33206","bicg.out","127.0.0.1","bicg_kernel1(int, int, float*, float*, float*)","2022-Oct-31 07:00:49","1","7","Command line profiler metrics","sm__sass_inst_executed_op_global_ld.sum","inst","1,048,576"
+"0","33206","bicg.out","127.0.0.1","bicg_kernel1(int, int, float*, float*, float*)","2022-Oct-31 07:00:49","1","7","Command line profiler metrics","sm__sass_inst_executed_op_global_st.sum","inst","524,416"
+==PROF== Connected to process 33227 (/home/hamdy/GPGPUs-Workloads/Benchmarks/PolyBench/linear-algebra/bicg/bicg.out)
+setting device 0 with name NVIDIA A100-PCIE-40GB
+GPU Time in seconds:
+0.528655
+==PROF== Disconnected from process 33227
+"ID","Process ID","Process Name","Host Name","Kernel Name","Kernel Time","Context","Stream","Section Name","Metric Name","Metric Unit","Metric Value"
+"0","33227","bicg.out","127.0.0.1","bicg_kernel1(int, int, float*, float*, float*)","2022-Oct-31 07:01:00","1","7","Command line profiler metrics","gpu__cycles_active.max","cycle","2,334,343"
+"0","33227","bicg.out","127.0.0.1","bicg_kernel1(int, int, float*, float*, float*)","2022-Oct-31 07:01:00","1","7","Command line profiler metrics","gpu__cycles_active.min","cycle","2,334,343"
+"0","33227","bicg.out","127.0.0.1","bicg_kernel1(int, int, float*, float*, float*)","2022-Oct-31 07:01:00","1","7","Command line profiler metrics","gpu__cycles_elapsed.max","cycle","2,334,343"
+"0","33227","bicg.out","127.0.0.1","bicg_kernel1(int, int, float*, float*, float*)","2022-Oct-31 07:01:00","1","7","Command line profiler metrics","gpu__time_duration.max","nsecond","2,992,800"
+==PROF== Connected to process 33250 (/home/hamdy/GPGPUs-Workloads/Benchmarks/PolyBench/linear-algebra/bicg/bicg.out)
+setting device 0 with name NVIDIA A100-PCIE-40GB
+GPU Time in seconds:
+0.607750
+==PROF== Disconnected from process 33250
+"ID","Process ID","Process Name","Host Name","Kernel Name","Kernel Time","Context","Stream","Section Name","Metric Name","Metric Unit","Metric Value"
+"0","33250","bicg.out","127.0.0.1","bicg_kernel1(int, int, float*, float*, float*)","2022-Oct-31 07:01:11","1","7","Command line profiler metrics","sm__cycles_active.sum","cycle","35,448,365"
+==PROF== Connected to process 33309 (/home/hamdy/GPGPUs-Workloads/Benchmarks/PolyBench/linear-algebra/bicg/bicg.out)
+setting device 0 with name NVIDIA A100-PCIE-40GB
+GPU Time in seconds:
+0.539971
+==PROF== Disconnected from process 33309
+"ID","Process ID","Process Name","Host Name","Kernel Name","Kernel Time","Context","Stream","Section Name","Metric Name","Metric Unit","Metric Value"
+"0","33309","bicg.out","127.0.0.1","bicg_kernel1(int, int, float*, float*, float*)","2022-Oct-31 07:01:23","1","7","Command line profiler metrics","sm__cycles_elapsed.sum","cycle","247,196,402"
+==PROF== Connected to process 33330 (/home/hamdy/GPGPUs-Workloads/Benchmarks/PolyBench/linear-algebra/bicg/bicg.out)
+setting device 0 with name NVIDIA A100-PCIE-40GB
+GPU Time in seconds:
+0.614933
+==PROF== Disconnected from process 33330
+"ID","Process ID","Process Name","Host Name","Kernel Name","Kernel Time","Context","Stream","Section Name","Metric Name","Metric Unit","Metric Value"
+"0","33330","bicg.out","127.0.0.1","bicg_kernel1(int, int, float*, float*, float*)","2022-Oct-31 07:01:34","1","7","Command line profiler metrics","sm__inst_executed_pipe_tensor_op_dmma.max","inst","0"
+"0","33330","bicg.out","127.0.0.1","bicg_kernel1(int, int, float*, float*, float*)","2022-Oct-31 07:01:34","1","7","Command line profiler metrics","sm__inst_executed_pipe_tensor_op_hmma.max","inst","16"
+"0","33330","bicg.out","127.0.0.1","bicg_kernel1(int, int, float*, float*, float*)","2022-Oct-31 07:01:34","1","7","Command line profiler metrics","sm__inst_executed_pipe_tensor_op_imma.max","inst","0"
+==PROF== Connected to process 33357 (/home/hamdy/GPGPUs-Workloads/Benchmarks/PolyBench/linear-algebra/bicg/bicg.out)
+setting device 0 with name NVIDIA A100-PCIE-40GB
+GPU Time in seconds:
+0.615829
+==PROF== Disconnected from process 33357
+"ID","Process ID","Process Name","Host Name","Kernel Name","Kernel Time","Context","Stream","Section Name","Metric Name","Metric Unit","Metric Value"
+"0","33357","bicg.out","127.0.0.1","bicg_kernel1(int, int, float*, float*, float*)","2022-Oct-31 07:01:45","1","7","Command line profiler metrics","sm__inst_executed_pipe_tensor_op_dmma.sum","inst","0"
+"0","33357","bicg.out","127.0.0.1","bicg_kernel1(int, int, float*, float*, float*)","2022-Oct-31 07:01:45","1","7","Command line profiler metrics","sm__inst_executed_pipe_tensor_op_hmma.sum","inst","256"
+"0","33357","bicg.out","127.0.0.1","bicg_kernel1(int, int, float*, float*, float*)","2022-Oct-31 07:01:45","1","7","Command line profiler metrics","sm__inst_executed_pipe_tensor_op_imma.sum","inst","0"
+==PROF== Connected to process 33379 (/home/hamdy/GPGPUs-Workloads/Benchmarks/PolyBench/linear-algebra/bicg/bicg.out)
+setting device 0 with name NVIDIA A100-PCIE-40GB
+GPU Time in seconds:
+0.614668
+==PROF== Disconnected from process 33379
+"ID","Process ID","Process Name","Host Name","Kernel Name","Kernel Time","Context","Stream","Section Name","Metric Name","Metric Unit","Metric Value"
+"0","33379","bicg.out","127.0.0.1","bicg_kernel1(int, int, float*, float*, float*)","2022-Oct-31 07:01:57","1","7","Command line profiler metrics","sm__pipe_tensor_cycles_active.max","cycle","32"
+"0","33379","bicg.out","127.0.0.1","bicg_kernel1(int, int, float*, float*, float*)","2022-Oct-31 07:01:57","1","7","Command line profiler metrics","sm__pipe_tensor_op_dmma_cycles_active.max","inst","0"
+"0","33379","bicg.out","127.0.0.1","bicg_kernel1(int, int, float*, float*, float*)","2022-Oct-31 07:01:57","1","7","Command line profiler metrics","sm__pipe_tensor_op_hmma_cycles_active.max","cycle","32"
+"0","33379","bicg.out","127.0.0.1","bicg_kernel1(int, int, float*, float*, float*)","2022-Oct-31 07:01:57","1","7","Command line profiler metrics","sm__pipe_tensor_op_imma_cycles_active.max","cycle","0"
+==PROF== Connected to process 33401 (/home/hamdy/GPGPUs-Workloads/Benchmarks/PolyBench/linear-algebra/bicg/bicg.out)
+setting device 0 with name NVIDIA A100-PCIE-40GB
+GPU Time in seconds:
+0.613085
+==PROF== Disconnected from process 33401
+"ID","Process ID","Process Name","Host Name","Kernel Name","Kernel Time","Context","Stream","Section Name","Metric Name","Metric Unit","Metric Value"
+"0","33401","bicg.out","127.0.0.1","bicg_kernel1(int, int, float*, float*, float*)","2022-Oct-31 07:02:08","1","7","Command line profiler metrics","sm__pipe_tensor_cycles_active.sum","cycle","512"
+"0","33401","bicg.out","127.0.0.1","bicg_kernel1(int, int, float*, float*, float*)","2022-Oct-31 07:02:08","1","7","Command line profiler metrics","sm__pipe_tensor_op_dmma_cycles_active.sum","inst","0"
+"0","33401","bicg.out","127.0.0.1","bicg_kernel1(int, int, float*, float*, float*)","2022-Oct-31 07:02:08","1","7","Command line profiler metrics","sm__pipe_tensor_op_hmma_cycles_active.sum","cycle","512"
+"0","33401","bicg.out","127.0.0.1","bicg_kernel1(int, int, float*, float*, float*)","2022-Oct-31 07:02:08","1","7","Command line profiler metrics","sm__pipe_tensor_op_imma_cycles_active.sum","cycle","0"
+==PROF== Connected to process 33420 (/home/hamdy/GPGPUs-Workloads/Benchmarks/PolyBench/linear-algebra/bicg/bicg.out)
+setting device 0 with name NVIDIA A100-PCIE-40GB
+GPU Time in seconds:
+0.604930
+==PROF== Disconnected from process 33420
+"ID","Process ID","Process Name","Host Name","Kernel Name","Kernel Time","Context","Stream","Section Name","Metric Name","Metric Unit","Metric Value"
+"0","33420","bicg.out","127.0.0.1","bicg_kernel1(int, int, float*, float*, float*)","2022-Oct-31 07:02:19","1","7","Command line profiler metrics","sm__inst_executed.sum","inst","3,542,400"
+==PROF== Connected to process 33439 (/home/hamdy/GPGPUs-Workloads/Benchmarks/PolyBench/linear-algebra/bicg/bicg.out)
+setting device 0 with name NVIDIA A100-PCIE-40GB
+GPU Time in seconds:
+0.610089
+==PROF== Disconnected from process 33439
+"ID","Process ID","Process Name","Host Name","Kernel Name","Kernel Time","Context","Stream","Section Name","Metric Name","Metric Unit","Metric Value"
+"0","33439","bicg.out","127.0.0.1","bicg_kernel1(int, int, float*, float*, float*)","2022-Oct-31 07:02:31","1","7","Command line profiler metrics","sm__inst_executed.max","inst","221,400"
+==PROF== Connected to process 33466 (/home/hamdy/GPGPUs-Workloads/Benchmarks/PolyBench/linear-algebra/bicg/bicg.out)
+setting device 0 with name NVIDIA A100-PCIE-40GB
+GPU Time in seconds:
+0.610678
+==PROF== Disconnected from process 33466
+"ID","Process ID","Process Name","Host Name","Kernel Name","Kernel Time","Context","Stream","Section Name","Metric Name","Metric Unit","Metric Value"
+"0","33466","bicg.out","127.0.0.1","bicg_kernel1(int, int, float*, float*, float*)","2022-Oct-31 07:02:42","1","7","Command line profiler metrics","sm__inst_executed_pipe_alu.max","inst","49,224"
+==PROF== Connected to process 33488 (/home/hamdy/GPGPUs-Workloads/Benchmarks/PolyBench/linear-algebra/bicg/bicg.out)
+setting device 0 with name NVIDIA A100-PCIE-40GB
+GPU Time in seconds:
+0.605401
+==PROF== Disconnected from process 33488
+"ID","Process ID","Process Name","Host Name","Kernel Name","Kernel Time","Context","Stream","Section Name","Metric Name","Metric Unit","Metric Value"
+"0","33488","bicg.out","127.0.0.1","bicg_kernel1(int, int, float*, float*, float*)","2022-Oct-31 07:02:53","1","7","Command line profiler metrics","sm__inst_executed_pipe_fma.max","inst","65,600"
+==PROF== Connected to process 33507 (/home/hamdy/GPGPUs-Workloads/Benchmarks/PolyBench/linear-algebra/bicg/bicg.out)
+setting device 0 with name NVIDIA A100-PCIE-40GB
+GPU Time in seconds:
+0.610436
+==PROF== Disconnected from process 33507
+"ID","Process ID","Process Name","Host Name","Kernel Name","Kernel Time","Context","Stream","Section Name","Metric Name","Metric Unit","Metric Value"
+"0","33507","bicg.out","127.0.0.1","bicg_kernel1(int, int, float*, float*, float*)","2022-Oct-31 07:03:05","1","7","Command line profiler metrics","sm__inst_executed_pipe_fp64.max","inst","0"
+==PROF== Connected to process 33526 (/home/hamdy/GPGPUs-Workloads/Benchmarks/PolyBench/linear-algebra/bicg/bicg.out)
+setting device 0 with name NVIDIA A100-PCIE-40GB
+GPU Time in seconds:
+0.609163
+==PROF== Disconnected from process 33526
+"ID","Process ID","Process Name","Host Name","Kernel Name","Kernel Time","Context","Stream","Section Name","Metric Name","Metric Unit","Metric Value"
+"0","33526","bicg.out","127.0.0.1","bicg_kernel1(int, int, float*, float*, float*)","2022-Oct-31 07:03:16","1","7","Command line profiler metrics","sm__pipe_alu_cycles_active.max","cycle","98,448"
+==PROF== Connected to process 33546 (/home/hamdy/GPGPUs-Workloads/Benchmarks/PolyBench/linear-algebra/bicg/bicg.out)
+setting device 0 with name NVIDIA A100-PCIE-40GB
+GPU Time in seconds:
+0.607025
+==PROF== Disconnected from process 33546
+"ID","Process ID","Process Name","Host Name","Kernel Name","Kernel Time","Context","Stream","Section Name","Metric Name","Metric Unit","Metric Value"
+"0","33546","bicg.out","127.0.0.1","bicg_kernel1(int, int, float*, float*, float*)","2022-Oct-31 07:03:27","1","7","Command line profiler metrics","sm__pipe_fma_cycles_active.max","cycle","131,200"
+==PROF== Connected to process 33573 (/home/hamdy/GPGPUs-Workloads/Benchmarks/PolyBench/linear-algebra/bicg/bicg.out)
+setting device 0 with name NVIDIA A100-PCIE-40GB
+GPU Time in seconds:
+0.605299
+==PROF== Disconnected from process 33573
+"ID","Process ID","Process Name","Host Name","Kernel Name","Kernel Time","Context","Stream","Section Name","Metric Name","Metric Unit","Metric Value"
+"0","33573","bicg.out","127.0.0.1","bicg_kernel1(int, int, float*, float*, float*)","2022-Oct-31 07:03:39","1","7","Command line profiler metrics","sm__pipe_fp64_cycles_active.max","cycle","0"

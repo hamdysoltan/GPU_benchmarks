@@ -1,0 +1,232 @@
+------------- NVBit (NVidia Binary Instrumentation Tool v1.5.3) Loaded --------------
+NVBit core environment variables (mostly for nvbit-devs):
+            NVDISASM = nvdisasm - override default nvdisasm found in PATH
+            NOBANNER = 0 - if set, does not print this banner
+---------------------------------------------------------------------------------
+setting device 0 
+Basic block id 0 - num instructions 7
+ Instr 0 @ 0x0 (0) - IMAD.MOV.U32 R1, RZ, RZ, c[0x0][0x28] ;
+ Instr 1 @ 0x10 (16) - S2R R0, SR_CTAID.X ;
+ Instr 2 @ 0x20 (32) - S2R R3, SR_TID.X ;
+ Instr 3 @ 0x30 (48) - IMAD R0, R0, c[0x0][0x0], R3 ;
+ Instr 4 @ 0x40 (64) - ISETP.GT.AND P0, PT, R0, c[0x0][0x170], PT ;
+ Instr 5 @ 0x50 (80) - ISETP.GE.OR P0, PT, R0, c[0x0][0x160], !P0 ;
+ Instr 6 @ 0x60 (96) - @P0 EXIT ;
+Basic block id 1 - num instructions 12
+ Instr 7 @ 0x70 (112) - IMAD.MOV.U32 R3, RZ, RZ, c[0x0][0x170] ;
+ Instr 8 @ 0x80 (128) - ULDC.64 UR4, c[0x0][0x118] ;
+ Instr 9 @ 0x90 (144) - IMAD.MOV.U32 R7, RZ, RZ, 0x4 ;
+ Instr 10 @ 0xa0 (160) - IMAD R2, R3.reuse, 0x40, R0 ;
+ Instr 11 @ 0xb0 (176) - IMAD R4, R3, 0x41, RZ ;
+ Instr 12 @ 0xc0 (192) - IMAD.WIDE R2, R2, R7, c[0x0][0x168] ;
+ Instr 13 @ 0xd0 (208) - IMAD.WIDE R4, R4, R7, c[0x0][0x168] ;
+ Instr 14 @ 0xe0 (224) - LDG.E R7, [R2.64] ;
+ Instr 15 @ 0xf0 (240) - LDG.E R6, [R4.64] ;
+ Instr 16 @ 0x100 (256) - BSSY B1, 0x140 ;
+ Instr 17 @ 0x110 (272) - MOV R0, 0x130 ;
+ Instr 18 @ 0x120 (288) - CALL.REL.NOINC 0x160 ;
+Basic block id 2 - num instructions 1
+ Instr 19 @ 0x130 (304) - BSYNC B1 ;
+Basic block id 3 - num instructions 2
+ Instr 20 @ 0x140 (320) - STG.E [R2.64], R7 ;
+ Instr 21 @ 0x150 (336) - EXIT ;
+Basic block id 4 - num instructions 2
+ Instr 22 @ 0x160 (352) - FCHK P0, R7, R6 ;
+ Instr 23 @ 0x170 (368) - @P0 BRA 0x240 ;
+Basic block id 5 - num instructions 12
+ Instr 24 @ 0x180 (384) - MUFU.RCP R4, R6 ;
+ Instr 25 @ 0x190 (400) - FADD.FTZ R8, -R6, -RZ ;
+ Instr 26 @ 0x1a0 (416) - FFMA R5, R4, R8, 1 ;
+ Instr 27 @ 0x1b0 (432) - FFMA R4, R4, R5, R4 ;
+ Instr 28 @ 0x1c0 (448) - FFMA R5, R7, R4, RZ ;
+ Instr 29 @ 0x1d0 (464) - FFMA R9, R8, R5, R7 ;
+ Instr 30 @ 0x1e0 (480) - FFMA R9, R4, R9, R5 ;
+ Instr 31 @ 0x1f0 (496) - IMAD.MOV.U32 R5, RZ, RZ, 0x0 ;
+ Instr 32 @ 0x200 (512) - FFMA R7, R8, R9, R7 ;
+ Instr 33 @ 0x210 (528) - FFMA R7, R4, R7, R9 ;
+ Instr 34 @ 0x220 (544) - IMAD.MOV.U32 R4, RZ, RZ, R0 ;
+ Instr 35 @ 0x230 (560) - RET.REL.NODEC R4 0x0 ;
+Basic block id 6 - num instructions 4
+ Instr 36 @ 0x240 (576) - BSSY B0, 0x290 ;
+ Instr 37 @ 0x250 (592) - IMAD.MOV.U32 R8, RZ, RZ, R6 ;
+ Instr 38 @ 0x260 (608) - MOV R4, 0x280 ;
+ Instr 39 @ 0x270 (624) - CALL.REL.NOINC 0x2c0 ;
+Basic block id 7 - num instructions 1
+ Instr 40 @ 0x280 (640) - BSYNC B0 ;
+Basic block id 8 - num instructions 3
+ Instr 41 @ 0x290 (656) - IMAD.MOV.U32 R4, RZ, RZ, R0 ;
+ Instr 42 @ 0x2a0 (672) - IMAD.MOV.U32 R5, RZ, RZ, 0x0 ;
+ Instr 43 @ 0x2b0 (688) - RET.REL.NODEC R4 0x0 ;
+Basic block id 9 - num instructions 11
+ Instr 44 @ 0x2c0 (704) - SHF.R.U32.HI R6, RZ, 0x17, R8 ;
+ Instr 45 @ 0x2d0 (720) - BSSY B2, 0x540 ;
+ Instr 46 @ 0x2e0 (736) - SHF.R.U32.HI R5, RZ, 0x17, R7 ;
+ Instr 47 @ 0x2f0 (752) - LOP3.LUT R6, R6, 0xff, RZ, 0xc0, !PT ;
+ Instr 48 @ 0x300 (768) - LOP3.LUT R5, R5, 0xff, RZ, 0xc0, !PT ;
+ Instr 49 @ 0x310 (784) - IADD3 R11, R6, -0x1, RZ ;
+ Instr 50 @ 0x320 (800) - IADD3 R10, R5, -0x1, RZ ;
+ Instr 51 @ 0x330 (816) - ISETP.GT.U32.AND P0, PT, R11, 0xfd, PT ;
+ Instr 52 @ 0x340 (832) - ISETP.GT.U32.OR P0, PT, R10, 0xfd, P0 ;
+ Instr 53 @ 0x350 (848) - @!P0 IMAD.MOV.U32 R9, RZ, RZ, RZ ;
+ Instr 54 @ 0x360 (864) - @!P0 BRA 0x530 ;
+Basic block id 10 - num instructions 5
+ Instr 55 @ 0x370 (880) - FSETP.GTU.FTZ.AND P0, PT, |R7|, +INF , PT ;
+ Instr 56 @ 0x380 (896) - FSETP.GTU.FTZ.AND P1, PT, |R8|, +INF , PT ;
+ Instr 57 @ 0x390 (912) - PLOP3.LUT P0, PT, P0, P1, PT, 0xa8, 0x0 ;
+ Instr 58 @ 0x3a0 (928) - @P0 BREAK B2 ;
+ Instr 59 @ 0x3b0 (944) - @P0 BRA 0x990 ;
+Basic block id 11 - num instructions 3
+ Instr 60 @ 0x3c0 (960) - LOP3.LUT P0, RZ, R8, 0x7fffffff, R7, 0xc8, !PT ;
+ Instr 61 @ 0x3d0 (976) - @!P0 BREAK B2 ;
+ Instr 62 @ 0x3e0 (992) - @!P0 BRA 0x960 ;
+Basic block id 12 - num instructions 5
+ Instr 63 @ 0x3f0 (1008) - FSETP.NEU.FTZ.AND P2, PT, |R7|.reuse, +INF , PT ;
+ Instr 64 @ 0x400 (1024) - FSETP.NEU.FTZ.AND P1, PT, |R8|, +INF , PT ;
+ Instr 65 @ 0x410 (1040) - FSETP.NEU.FTZ.AND P0, PT, |R7|, +INF , PT ;
+ Instr 66 @ 0x420 (1056) - @!P1 BREAK !P2, B2 ;
+ Instr 67 @ 0x430 (1072) - @!P1 BRA !P2, 0x960 ;
+Basic block id 13 - num instructions 4
+ Instr 68 @ 0x440 (1088) - LOP3.LUT P2, RZ, R7, 0x7fffffff, RZ, 0xc0, !PT ;
+ Instr 69 @ 0x450 (1104) - PLOP3.LUT P1, PT, P1, P2, PT, 0x2a, 0x0 ;
+ Instr 70 @ 0x460 (1120) - @P1 BREAK B2 ;
+ Instr 71 @ 0x470 (1136) - @P1 BRA 0x930 ;
+Basic block id 14 - num instructions 4
+ Instr 72 @ 0x480 (1152) - LOP3.LUT P1, RZ, R8, 0x7fffffff, RZ, 0xc0, !PT ;
+ Instr 73 @ 0x490 (1168) - PLOP3.LUT P0, PT, P0, P1, PT, 0x2a, 0x0 ;
+ Instr 74 @ 0x4a0 (1184) - @P0 BREAK B2 ;
+ Instr 75 @ 0x4b0 (1200) - @P0 BRA 0x8f0 ;
+Basic block id 15 - num instructions 7
+ Instr 76 @ 0x4c0 (1216) - ISETP.GE.AND P0, PT, R10, RZ, PT ;
+ Instr 77 @ 0x4d0 (1232) - ISETP.GE.AND P1, PT, R11, RZ, PT ;
+ Instr 78 @ 0x4e0 (1248) - @P0 IMAD.MOV.U32 R9, RZ, RZ, RZ ;
+ Instr 79 @ 0x4f0 (1264) - @!P0 IMAD.MOV.U32 R9, RZ, RZ, -0x40 ;
+ Instr 80 @ 0x500 (1280) - @!P0 FFMA R7, R7, 1.84467440737095516160e+19, RZ ;
+ Instr 81 @ 0x510 (1296) - @!P1 FFMA R8, R8, 1.84467440737095516160e+19, RZ ;
+ Instr 82 @ 0x520 (1312) - @!P1 IADD3 R9, R9, 0x40, RZ ;
+Basic block id 16 - num instructions 1
+ Instr 83 @ 0x530 (1328) - BSYNC B2 ;
+Basic block id 17 - num instructions 22
+ Instr 84 @ 0x540 (1344) - LEA R11, R6, 0xc0800000, 0x17 ;
+ Instr 85 @ 0x550 (1360) - BSSY B2, 0x8c0 ;
+ Instr 86 @ 0x560 (1376) - IMAD.IADD R11, R8, 0x1, -R11 ;
+ Instr 87 @ 0x570 (1392) - IADD3 R8, R5, -0x7f, RZ ;
+ Instr 88 @ 0x580 (1408) - MUFU.RCP R10, R11 ;
+ Instr 89 @ 0x590 (1424) - FADD.FTZ R12, -R11, -RZ ;
+ Instr 90 @ 0x5a0 (1440) - IMAD R7, R8.reuse, -0x800000, R7 ;
+ Instr 91 @ 0x5b0 (1456) - IADD3 R8, R8, 0x7f, -R6 ;
+ Instr 92 @ 0x5c0 (1472) - IMAD.IADD R8, R8, 0x1, R9 ;
+ Instr 93 @ 0x5d0 (1488) - FFMA R5, R10, R12, 1 ;
+ Instr 94 @ 0x5e0 (1504) - FFMA R14, R10, R5, R10 ;
+ Instr 95 @ 0x5f0 (1520) - FFMA R5, R7, R14, RZ ;
+ Instr 96 @ 0x600 (1536) - FFMA R10, R12, R5, R7 ;
+ Instr 97 @ 0x610 (1552) - FFMA R13, R14, R10, R5 ;
+ Instr 98 @ 0x620 (1568) - FFMA R7, R12, R13, R7 ;
+ Instr 99 @ 0x630 (1584) - FFMA R5, R14, R7, R13 ;
+ Instr 100 @ 0x640 (1600) - SHF.R.U32.HI R6, RZ, 0x17, R5 ;
+ Instr 101 @ 0x650 (1616) - LOP3.LUT R6, R6, 0xff, RZ, 0xc0, !PT ;
+ Instr 102 @ 0x660 (1632) - IMAD.IADD R10, R6, 0x1, R8 ;
+ Instr 103 @ 0x670 (1648) - IADD3 R6, R10, -0x1, RZ ;
+ Instr 104 @ 0x680 (1664) - ISETP.GE.U32.AND P0, PT, R6, 0xfe, PT ;
+ Instr 105 @ 0x690 (1680) - @!P0 BRA 0x8a0 ;
+Basic block id 18 - num instructions 2
+ Instr 106 @ 0x6a0 (1696) - ISETP.GT.AND P0, PT, R10, 0xfe, PT ;
+ Instr 107 @ 0x6b0 (1712) - @P0 BRA 0x870 ;
+Basic block id 19 - num instructions 2
+ Instr 108 @ 0x6c0 (1728) - ISETP.GE.AND P0, PT, R10, 0x1, PT ;
+ Instr 109 @ 0x6d0 (1744) - @P0 BRA 0x8b0 ;
+Basic block id 20 - num instructions 3
+ Instr 110 @ 0x6e0 (1760) - ISETP.GE.AND P0, PT, R10, -0x18, PT ;
+ Instr 111 @ 0x6f0 (1776) - LOP3.LUT R5, R5, 0x80000000, RZ, 0xc0, !PT ;
+ Instr 112 @ 0x700 (1792) - @!P0 BRA 0x8b0 ;
+Basic block id 21 - num instructions 22
+ Instr 113 @ 0x710 (1808) - FFMA.RZ R6, R14, R7.reuse, R13.reuse ;
+ Instr 114 @ 0x720 (1824) - IADD3 R9, R10.reuse, 0x20, RZ ;
+ Instr 115 @ 0x730 (1840) - ISETP.NE.AND P2, PT, R10, RZ, PT ;
+ Instr 116 @ 0x740 (1856) - LOP3.LUT R8, R6, 0x7fffff, RZ, 0xc0, !PT ;
+ Instr 117 @ 0x750 (1872) - FFMA.RP R6, R14, R7.reuse, R13.reuse ;
+ Instr 118 @ 0x760 (1888) - ISETP.NE.AND P1, PT, R10, RZ, PT ;
+ Instr 119 @ 0x770 (1904) - FFMA.RM R7, R14, R7, R13 ;
+ Instr 120 @ 0x780 (1920) - LOP3.LUT R8, R8, 0x800000, RZ, 0xfc, !PT ;
+ Instr 121 @ 0x790 (1936) - IMAD.MOV R10, RZ, RZ, -R10 ;
+ Instr 122 @ 0x7a0 (1952) - SHF.L.U32 R9, R8, R9, RZ ;
+ Instr 123 @ 0x7b0 (1968) - FSETP.NEU.FTZ.AND P0, PT, R6, R7, PT ;
+ Instr 124 @ 0x7c0 (1984) - SEL R7, R10, RZ, P2 ;
+ Instr 125 @ 0x7d0 (2000) - ISETP.NE.AND P1, PT, R9, RZ, P1 ;
+ Instr 126 @ 0x7e0 (2016) - SHF.R.U32.HI R7, RZ, R7, R8 ;
+ Instr 127 @ 0x7f0 (2032) - PLOP3.LUT P0, PT, P0, P1, PT, 0xa8, 0x0 ;
+ Instr 128 @ 0x800 (2048) - SHF.R.U32.HI R9, RZ, 0x1, R7 ;
+ Instr 129 @ 0x810 (2064) - SEL R6, RZ, 0x1, !P0 ;
+ Instr 130 @ 0x820 (2080) - LOP3.LUT R6, R6, 0x1, R9, 0xf8, !PT ;
+ Instr 131 @ 0x830 (2096) - LOP3.LUT R6, R6, R7, RZ, 0xc0, !PT ;
+ Instr 132 @ 0x840 (2112) - IMAD.IADD R6, R9, 0x1, R6 ;
+ Instr 133 @ 0x850 (2128) - LOP3.LUT R5, R6, R5, RZ, 0xfc, !PT ;
+ Instr 134 @ 0x860 (2144) - BRA 0x8b0 ;
+Basic block id 22 - num instructions 3
+ Instr 135 @ 0x870 (2160) - LOP3.LUT R5, R5, 0x80000000, RZ, 0xc0, !PT ;
+ Instr 136 @ 0x880 (2176) - LOP3.LUT R5, R5, 0x7f800000, RZ, 0xfc, !PT ;
+ Instr 137 @ 0x890 (2192) - BRA 0x8b0 ;
+Basic block id 23 - num instructions 1
+ Instr 138 @ 0x8a0 (2208) - IMAD R5, R8, 0x800000, R5 ;
+Basic block id 24 - num instructions 1
+ Instr 139 @ 0x8b0 (2224) - BSYNC B2 ;
+Basic block id 25 - num instructions 3
+ Instr 140 @ 0x8c0 (2240) - IMAD.MOV.U32 R7, RZ, RZ, R5 ;
+ Instr 141 @ 0x8d0 (2256) - IMAD.MOV.U32 R5, RZ, RZ, 0x0 ;
+ Instr 142 @ 0x8e0 (2272) - RET.REL.NODEC R4 0x0 ;
+Basic block id 26 - num instructions 4
+ Instr 143 @ 0x8f0 (2288) - IMAD.MOV.U32 R5, RZ, RZ, 0x0 ;
+ Instr 144 @ 0x900 (2304) - LOP3.LUT R7, R8, 0x80000000, R7, 0x48, !PT ;
+ Instr 145 @ 0x910 (2320) - LOP3.LUT R7, R7, 0x7f800000, RZ, 0xfc, !PT ;
+ Instr 146 @ 0x920 (2336) - RET.REL.NODEC R4 0x0 ;
+Basic block id 27 - num instructions 3
+ Instr 147 @ 0x930 (2352) - IMAD.MOV.U32 R5, RZ, RZ, 0x0 ;
+ Instr 148 @ 0x940 (2368) - LOP3.LUT R7, R8, 0x80000000, R7, 0x48, !PT ;
+ Instr 149 @ 0x950 (2384) - RET.REL.NODEC R4 0x0 ;
+Basic block id 28 - num instructions 3
+ Instr 150 @ 0x960 (2400) - IMAD.MOV.U32 R5, RZ, RZ, 0x0 ;
+ Instr 151 @ 0x970 (2416) - IMAD.MOV.U32 R7, RZ, RZ, 0x7fffffff ;
+ Instr 152 @ 0x980 (2432) - RET.REL.NODEC R4 0x0 ;
+Basic block id 29 - num instructions 3
+ Instr 153 @ 0x990 (2448) - IMAD.MOV.U32 R5, RZ, RZ, 0x0 ;
+ Instr 154 @ 0x9a0 (2464) - FADD.FTZ R7, R7, R8 ;
+ Instr 155 @ 0x9b0 (2480) - RET.REL.NODEC R4 0x0 ;
+Basic block id 30 - num instructions 1
+ Instr 156 @ 0x9c0 (2496) - BRA 0x9c0;
+Basic block id 0 - num instructions 12
+ Instr 0 @ 0x0 (0) - MOV R1, c[0x0][0x28] ;
+ Instr 1 @ 0x10 (16) - S2R R0, SR_CTAID.X ;
+ Instr 2 @ 0x20 (32) - S2R R3, SR_TID.X ;
+ Instr 3 @ 0x30 (48) - S2R R2, SR_CTAID.Y ;
+ Instr 4 @ 0x40 (64) - S2R R5, SR_TID.Y ;
+ Instr 5 @ 0x50 (80) - IMAD R0, R0, c[0x0][0x0], R3 ;
+ Instr 6 @ 0x60 (96) - ISETP.GT.AND P0, PT, R0, c[0x0][0x170], PT ;
+ Instr 7 @ 0x70 (112) - IMAD R3, R2, c[0x0][0x4], R5 ;
+ Instr 8 @ 0x80 (128) - ISETP.LE.OR P0, PT, R3, c[0x0][0x170], !P0 ;
+ Instr 9 @ 0x90 (144) - ISETP.GE.OR P0, PT, R3, c[0x0][0x160], P0 ;
+ Instr 10 @ 0xa0 (160) - ISETP.GE.OR P0, PT, R0, c[0x0][0x160], P0 ;
+ Instr 11 @ 0xb0 (176) - @P0 EXIT ;
+Basic block id 1 - num instructions 15
+ Instr 12 @ 0xc0 (192) - MOV R5, c[0x0][0x170] ;
+ Instr 13 @ 0xd0 (208) - IMAD.MOV.U32 R7, RZ, RZ, 0x4 ;
+ Instr 14 @ 0xe0 (224) - LEA R4, R3.reuse, c[0x0][0x170], 0x6 ;
+ Instr 15 @ 0xf0 (240) - ULDC.64 UR4, c[0x0][0x118] ;
+ Instr 16 @ 0x100 (256) - LEA R3, R3, R0, 0x6 ;
+ Instr 17 @ 0x110 (272) - IMAD R6, R5, 0x40, R0 ;
+ Instr 18 @ 0x120 (288) - IMAD.WIDE R4, R4, R7, c[0x0][0x168] ;
+ Instr 19 @ 0x130 (304) - IMAD.WIDE R2, R3, R7.reuse, c[0x0][0x168] ;
+ Instr 20 @ 0x140 (320) - LDG.E R5, [R4.64] ;
+ Instr 21 @ 0x150 (336) - IMAD.WIDE R6, R6, R7, c[0x0][0x168] ;
+ Instr 22 @ 0x160 (352) - LDG.E R0, [R2.64] ;
+ Instr 23 @ 0x170 (368) - LDG.E R6, [R6.64] ;
+ Instr 24 @ 0x180 (384) - FFMA R9, R6, -R5, R0 ;
+ Instr 25 @ 0x190 (400) - STG.E [R2.64], R9 ;
+ Instr 26 @ 0x1a0 (416) - EXIT ;
+Basic block id 2 - num instructions 1
+ Instr 27 @ 0x1b0 (432) - BRA 0x1b0;
+GPU Time in seconds:
+0.468602
+CPU Time in seconds:
+0.000378
+
+
+ the count is 33 /n/n

@@ -1,0 +1,125 @@
+==PROF== Connected to process 40089 (/home/hamdy/GPGPUs-Workloads/Benchmarks/PolyBench/linear-algebra/doitgen/doitgen.out)
+GPU Time in seconds:
+0.647987
+==PROF== Disconnected from process 40089
+"ID","Process ID","Process Name","Host Name","Kernel Name","Kernel Time","Context","Stream","Section Name","Metric Name","Metric Unit","Metric Value"
+"0","40089","doitgen.out","127.0.0.1","doitgen_kernel1(int, int, int, float*, float*, float*, int)","2022-Oct-31 08:02:14","1","7","Command line profiler metrics","sm__ctas_launched.sum","","256"
+==PROF== Connected to process 40301 (/home/hamdy/GPGPUs-Workloads/Benchmarks/PolyBench/linear-algebra/doitgen/doitgen.out)
+GPU Time in seconds:
+0.750478
+==PROF== Disconnected from process 40301
+"ID","Process ID","Process Name","Host Name","Kernel Name","Kernel Time","Context","Stream","Section Name","Metric Name","Metric Unit","Metric Value"
+"0","40301","doitgen.out","127.0.0.1","doitgen_kernel1(int, int, int, float*, float*, float*, int)","2022-Oct-31 08:02:26","1","7","Command line profiler metrics","l1tex__t_sector_hit_rate.pct","%","93.11"
+"0","40301","doitgen.out","127.0.0.1","doitgen_kernel1(int, int, int, float*, float*, float*, int)","2022-Oct-31 08:02:26","1","7","Command line profiler metrics","l1tex__t_sector_pipe_lsu_mem_global_op_ld_hit_rate.pct","%","87.88"
+"0","40301","doitgen.out","127.0.0.1","doitgen_kernel1(int, int, int, float*, float*, float*, int)","2022-Oct-31 08:02:26","1","7","Command line profiler metrics","lts__t_request_hit_rate.pct","%","96.55"
+==PROF== Connected to process 40326 (/home/hamdy/GPGPUs-Workloads/Benchmarks/PolyBench/linear-algebra/doitgen/doitgen.out)
+GPU Time in seconds:
+0.523573
+==PROF== Disconnected from process 40326
+"ID","Process ID","Process Name","Host Name","Kernel Name","Kernel Time","Context","Stream","Section Name","Metric Name","Metric Unit","Metric Value"
+"0","40326","doitgen.out","127.0.0.1","doitgen_kernel1(int, int, int, float*, float*, float*, int)","2022-Oct-31 08:02:37","1","7","Command line profiler metrics","sm__sass_inst_executed_op_global.sum","inst","1,574,912"
+"0","40326","doitgen.out","127.0.0.1","doitgen_kernel1(int, int, int, float*, float*, float*, int)","2022-Oct-31 08:02:37","1","7","Command line profiler metrics","sm__sass_inst_executed_op_global_ld.sum","inst","1,048,576"
+"0","40326","doitgen.out","127.0.0.1","doitgen_kernel1(int, int, int, float*, float*, float*, int)","2022-Oct-31 08:02:37","1","7","Command line profiler metrics","sm__sass_inst_executed_op_global_st.sum","inst","526,336"
+==PROF== Connected to process 40360 (/home/hamdy/GPGPUs-Workloads/Benchmarks/PolyBench/linear-algebra/doitgen/doitgen.out)
+GPU Time in seconds:
+0.532833
+==PROF== Disconnected from process 40360
+"ID","Process ID","Process Name","Host Name","Kernel Name","Kernel Time","Context","Stream","Section Name","Metric Name","Metric Unit","Metric Value"
+"0","40360","doitgen.out","127.0.0.1","doitgen_kernel1(int, int, int, float*, float*, float*, int)","2022-Oct-31 08:02:48","1","7","Command line profiler metrics","gpu__cycles_active.max","cycle","113,538"
+"0","40360","doitgen.out","127.0.0.1","doitgen_kernel1(int, int, int, float*, float*, float*, int)","2022-Oct-31 08:02:48","1","7","Command line profiler metrics","gpu__cycles_active.min","cycle","113,538"
+"0","40360","doitgen.out","127.0.0.1","doitgen_kernel1(int, int, int, float*, float*, float*, int)","2022-Oct-31 08:02:48","1","7","Command line profiler metrics","gpu__cycles_elapsed.max","cycle","113,538"
+"0","40360","doitgen.out","127.0.0.1","doitgen_kernel1(int, int, int, float*, float*, float*, int)","2022-Oct-31 08:02:48","1","7","Command line profiler metrics","gpu__time_duration.max","nsecond","145,632"
+==PROF== Connected to process 40394 (/home/hamdy/GPGPUs-Workloads/Benchmarks/PolyBench/linear-algebra/doitgen/doitgen.out)
+GPU Time in seconds:
+0.617455
+==PROF== Disconnected from process 40394
+"ID","Process ID","Process Name","Host Name","Kernel Name","Kernel Time","Context","Stream","Section Name","Metric Name","Metric Unit","Metric Value"
+"0","40394","doitgen.out","127.0.0.1","doitgen_kernel1(int, int, int, float*, float*, float*, int)","2022-Oct-31 08:02:59","1","7","Command line profiler metrics","sm__cycles_active.sum","cycle","11,675,994"
+==PROF== Connected to process 40421 (/home/hamdy/GPGPUs-Workloads/Benchmarks/PolyBench/linear-algebra/doitgen/doitgen.out)
+GPU Time in seconds:
+0.540502
+==PROF== Disconnected from process 40421
+"ID","Process ID","Process Name","Host Name","Kernel Name","Kernel Time","Context","Stream","Section Name","Metric Name","Metric Unit","Metric Value"
+"0","40421","doitgen.out","127.0.0.1","doitgen_kernel1(int, int, int, float*, float*, float*, int)","2022-Oct-31 08:03:11","1","7","Command line profiler metrics","sm__cycles_elapsed.sum","cycle","11,969,762"
+==PROF== Connected to process 40443 (/home/hamdy/GPGPUs-Workloads/Benchmarks/PolyBench/linear-algebra/doitgen/doitgen.out)
+GPU Time in seconds:
+0.623625
+==PROF== Disconnected from process 40443
+"ID","Process ID","Process Name","Host Name","Kernel Name","Kernel Time","Context","Stream","Section Name","Metric Name","Metric Unit","Metric Value"
+"0","40443","doitgen.out","127.0.0.1","doitgen_kernel1(int, int, int, float*, float*, float*, int)","2022-Oct-31 08:03:22","1","7","Command line profiler metrics","sm__inst_executed_pipe_tensor_op_dmma.max","inst","0"
+"0","40443","doitgen.out","127.0.0.1","doitgen_kernel1(int, int, int, float*, float*, float*, int)","2022-Oct-31 08:03:22","1","7","Command line profiler metrics","sm__inst_executed_pipe_tensor_op_hmma.max","inst","48"
+"0","40443","doitgen.out","127.0.0.1","doitgen_kernel1(int, int, int, float*, float*, float*, int)","2022-Oct-31 08:03:22","1","7","Command line profiler metrics","sm__inst_executed_pipe_tensor_op_imma.max","inst","0"
+==PROF== Connected to process 40462 (/home/hamdy/GPGPUs-Workloads/Benchmarks/PolyBench/linear-algebra/doitgen/doitgen.out)
+GPU Time in seconds:
+0.623275
+==PROF== Disconnected from process 40462
+"ID","Process ID","Process Name","Host Name","Kernel Name","Kernel Time","Context","Stream","Section Name","Metric Name","Metric Unit","Metric Value"
+"0","40462","doitgen.out","127.0.0.1","doitgen_kernel1(int, int, int, float*, float*, float*, int)","2022-Oct-31 08:03:33","1","7","Command line profiler metrics","sm__inst_executed_pipe_tensor_op_dmma.sum","inst","0"
+"0","40462","doitgen.out","127.0.0.1","doitgen_kernel1(int, int, int, float*, float*, float*, int)","2022-Oct-31 08:03:33","1","7","Command line profiler metrics","sm__inst_executed_pipe_tensor_op_hmma.sum","inst","4,096"
+"0","40462","doitgen.out","127.0.0.1","doitgen_kernel1(int, int, int, float*, float*, float*, int)","2022-Oct-31 08:03:33","1","7","Command line profiler metrics","sm__inst_executed_pipe_tensor_op_imma.sum","inst","0"
+==PROF== Connected to process 40489 (/home/hamdy/GPGPUs-Workloads/Benchmarks/PolyBench/linear-algebra/doitgen/doitgen.out)
+GPU Time in seconds:
+0.618508
+==PROF== Disconnected from process 40489
+"ID","Process ID","Process Name","Host Name","Kernel Name","Kernel Time","Context","Stream","Section Name","Metric Name","Metric Unit","Metric Value"
+"0","40489","doitgen.out","127.0.0.1","doitgen_kernel1(int, int, int, float*, float*, float*, int)","2022-Oct-31 08:03:45","1","7","Command line profiler metrics","sm__pipe_tensor_cycles_active.max","cycle","144"
+"0","40489","doitgen.out","127.0.0.1","doitgen_kernel1(int, int, int, float*, float*, float*, int)","2022-Oct-31 08:03:45","1","7","Command line profiler metrics","sm__pipe_tensor_op_dmma_cycles_active.max","inst","0"
+"0","40489","doitgen.out","127.0.0.1","doitgen_kernel1(int, int, int, float*, float*, float*, int)","2022-Oct-31 08:03:45","1","7","Command line profiler metrics","sm__pipe_tensor_op_hmma_cycles_active.max","cycle","144"
+"0","40489","doitgen.out","127.0.0.1","doitgen_kernel1(int, int, int, float*, float*, float*, int)","2022-Oct-31 08:03:45","1","7","Command line profiler metrics","sm__pipe_tensor_op_imma_cycles_active.max","cycle","0"
+==PROF== Connected to process 40508 (/home/hamdy/GPGPUs-Workloads/Benchmarks/PolyBench/linear-algebra/doitgen/doitgen.out)
+GPU Time in seconds:
+0.620592
+==PROF== Disconnected from process 40508
+"ID","Process ID","Process Name","Host Name","Kernel Name","Kernel Time","Context","Stream","Section Name","Metric Name","Metric Unit","Metric Value"
+"0","40508","doitgen.out","127.0.0.1","doitgen_kernel1(int, int, int, float*, float*, float*, int)","2022-Oct-31 08:03:56","1","7","Command line profiler metrics","sm__pipe_tensor_cycles_active.sum","cycle","12,288"
+"0","40508","doitgen.out","127.0.0.1","doitgen_kernel1(int, int, int, float*, float*, float*, int)","2022-Oct-31 08:03:56","1","7","Command line profiler metrics","sm__pipe_tensor_op_dmma_cycles_active.sum","inst","0"
+"0","40508","doitgen.out","127.0.0.1","doitgen_kernel1(int, int, int, float*, float*, float*, int)","2022-Oct-31 08:03:56","1","7","Command line profiler metrics","sm__pipe_tensor_op_hmma_cycles_active.sum","cycle","12,288"
+"0","40508","doitgen.out","127.0.0.1","doitgen_kernel1(int, int, int, float*, float*, float*, int)","2022-Oct-31 08:03:56","1","7","Command line profiler metrics","sm__pipe_tensor_op_imma_cycles_active.sum","cycle","0"
+==PROF== Connected to process 40527 (/home/hamdy/GPGPUs-Workloads/Benchmarks/PolyBench/linear-algebra/doitgen/doitgen.out)
+GPU Time in seconds:
+0.615433
+==PROF== Disconnected from process 40527
+"ID","Process ID","Process Name","Host Name","Kernel Name","Kernel Time","Context","Stream","Section Name","Metric Name","Metric Unit","Metric Value"
+"0","40527","doitgen.out","127.0.0.1","doitgen_kernel1(int, int, int, float*, float*, float*, int)","2022-Oct-31 08:04:08","1","7","Command line profiler metrics","sm__inst_executed.sum","inst","2,940,928"
+==PROF== Connected to process 40547 (/home/hamdy/GPGPUs-Workloads/Benchmarks/PolyBench/linear-algebra/doitgen/doitgen.out)
+GPU Time in seconds:
+0.614705
+==PROF== Disconnected from process 40547
+"ID","Process ID","Process Name","Host Name","Kernel Name","Kernel Time","Context","Stream","Section Name","Metric Name","Metric Unit","Metric Value"
+"0","40547","doitgen.out","127.0.0.1","doitgen_kernel1(int, int, int, float*, float*, float*, int)","2022-Oct-31 08:04:19","1","7","Command line profiler metrics","sm__inst_executed.max","inst","34,464"
+==PROF== Connected to process 40567 (/home/hamdy/GPGPUs-Workloads/Benchmarks/PolyBench/linear-algebra/doitgen/doitgen.out)
+GPU Time in seconds:
+0.619122
+==PROF== Disconnected from process 40567
+"ID","Process ID","Process Name","Host Name","Kernel Name","Kernel Time","Context","Stream","Section Name","Metric Name","Metric Unit","Metric Value"
+"0","40567","doitgen.out","127.0.0.1","doitgen_kernel1(int, int, int, float*, float*, float*, int)","2022-Oct-31 08:04:30","1","7","Command line profiler metrics","sm__inst_executed_pipe_alu.max","inst","2,784"
+==PROF== Connected to process 40594 (/home/hamdy/GPGPUs-Workloads/Benchmarks/PolyBench/linear-algebra/doitgen/doitgen.out)
+GPU Time in seconds:
+0.617574
+==PROF== Disconnected from process 40594
+"ID","Process ID","Process Name","Host Name","Kernel Name","Kernel Time","Context","Stream","Section Name","Metric Name","Metric Unit","Metric Value"
+"0","40594","doitgen.out","127.0.0.1","doitgen_kernel1(int, int, int, float*, float*, float*, int)","2022-Oct-31 08:04:42","1","7","Command line profiler metrics","sm__inst_executed_pipe_fma.max","inst","12,480"
+==PROF== Connected to process 40614 (/home/hamdy/GPGPUs-Workloads/Benchmarks/PolyBench/linear-algebra/doitgen/doitgen.out)
+GPU Time in seconds:
+0.621261
+==PROF== Disconnected from process 40614
+"ID","Process ID","Process Name","Host Name","Kernel Name","Kernel Time","Context","Stream","Section Name","Metric Name","Metric Unit","Metric Value"
+"0","40614","doitgen.out","127.0.0.1","doitgen_kernel1(int, int, int, float*, float*, float*, int)","2022-Oct-31 08:04:53","1","7","Command line profiler metrics","sm__inst_executed_pipe_fp64.max","inst","0"
+==PROF== Connected to process 40633 (/home/hamdy/GPGPUs-Workloads/Benchmarks/PolyBench/linear-algebra/doitgen/doitgen.out)
+GPU Time in seconds:
+0.616706
+==PROF== Disconnected from process 40633
+"ID","Process ID","Process Name","Host Name","Kernel Name","Kernel Time","Context","Stream","Section Name","Metric Name","Metric Unit","Metric Value"
+"0","40633","doitgen.out","127.0.0.1","doitgen_kernel1(int, int, int, float*, float*, float*, int)","2022-Oct-31 08:05:04","1","7","Command line profiler metrics","sm__pipe_alu_cycles_active.max","cycle","5,568"
+==PROF== Connected to process 40652 (/home/hamdy/GPGPUs-Workloads/Benchmarks/PolyBench/linear-algebra/doitgen/doitgen.out)
+GPU Time in seconds:
+0.617524
+==PROF== Disconnected from process 40652
+"ID","Process ID","Process Name","Host Name","Kernel Name","Kernel Time","Context","Stream","Section Name","Metric Name","Metric Unit","Metric Value"
+"0","40652","doitgen.out","127.0.0.1","doitgen_kernel1(int, int, int, float*, float*, float*, int)","2022-Oct-31 08:05:16","1","7","Command line profiler metrics","sm__pipe_fma_cycles_active.max","cycle","24,960"
+==PROF== Connected to process 40672 (/home/hamdy/GPGPUs-Workloads/Benchmarks/PolyBench/linear-algebra/doitgen/doitgen.out)
+GPU Time in seconds:
+0.624733
+==PROF== Disconnected from process 40672
+"ID","Process ID","Process Name","Host Name","Kernel Name","Kernel Time","Context","Stream","Section Name","Metric Name","Metric Unit","Metric Value"
+"0","40672","doitgen.out","127.0.0.1","doitgen_kernel1(int, int, int, float*, float*, float*, int)","2022-Oct-31 08:05:27","1","7","Command line profiler metrics","sm__pipe_fp64_cycles_active.max","cycle","0"

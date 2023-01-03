@@ -1,0 +1,143 @@
+==PROF== Connected to process 25127 (/home/hamdy/GPGPUs-Workloads/Benchmarks/PolyBench/linear-algebra/gramschmidt/gramschmidt.out)
+setting device 0 with name NVIDIA A100-PCIE-40GB
+GPU Time in seconds:
+0.520794
+==PROF== Disconnected from process 25127
+"ID","Process ID","Process Name","Host Name","Kernel Name","Kernel Time","Context","Stream","Section Name","Metric Name","Metric Unit","Metric Value"
+"0","25127","gramschmidt.out","127.0.0.1","gramschmidt_kernel1(int, int, float*, float*, float*, int)","2023-Jan-01 18:39:42","1","7","Command line profiler metrics","sm__ctas_launched.sum","","128"
+==PROF== Connected to process 25148 (/home/hamdy/GPGPUs-Workloads/Benchmarks/PolyBench/linear-algebra/gramschmidt/gramschmidt.out)
+setting device 0 with name NVIDIA A100-PCIE-40GB
+GPU Time in seconds:
+2.805055
+==PROF== Disconnected from process 25148
+"ID","Process ID","Process Name","Host Name","Kernel Name","Kernel Time","Context","Stream","Section Name","Metric Name","Metric Unit","Metric Value"
+"0","25148","gramschmidt.out","127.0.0.1","gramschmidt_kernel1(int, int, float*, float*, float*, int)","2023-Jan-01 18:39:55","1","7","Command line profiler metrics","l1tex__t_sector_hit_rate.pct","%","0"
+"0","25148","gramschmidt.out","127.0.0.1","gramschmidt_kernel1(int, int, float*, float*, float*, int)","2023-Jan-01 18:39:55","1","7","Command line profiler metrics","l1tex__t_sector_pipe_lsu_mem_global_op_ld_hit_rate.pct","%","0"
+"0","25148","gramschmidt.out","127.0.0.1","gramschmidt_kernel1(int, int, float*, float*, float*, int)","2023-Jan-01 18:39:55","1","7","Command line profiler metrics","lts__t_sector_hit_rate.pct","%","47.45"
+==PROF== Connected to process 25177 (/home/hamdy/GPGPUs-Workloads/Benchmarks/PolyBench/linear-algebra/gramschmidt/gramschmidt.out)
+setting device 0 with name NVIDIA A100-PCIE-40GB
+GPU Time in seconds:
+0.471040
+==PROF== Disconnected from process 25177
+"ID","Process ID","Process Name","Host Name","Kernel Name","Kernel Time","Context","Stream","Section Name","Metric Name","Metric Unit","Metric Value"
+"0","25177","gramschmidt.out","127.0.0.1","gramschmidt_kernel1(int, int, float*, float*, float*, int)","2023-Jan-01 18:40:07","1","7","Command line profiler metrics","sm__sass_inst_executed_op_global.sum","inst","32,769"
+"0","25177","gramschmidt.out","127.0.0.1","gramschmidt_kernel1(int, int, float*, float*, float*, int)","2023-Jan-01 18:40:07","1","7","Command line profiler metrics","sm__sass_inst_executed_op_global_ld.sum","inst","32,768"
+"0","25177","gramschmidt.out","127.0.0.1","gramschmidt_kernel1(int, int, float*, float*, float*, int)","2023-Jan-01 18:40:07","1","7","Command line profiler metrics","sm__sass_inst_executed_op_global_st.sum","inst","1"
+==PROF== Connected to process 25216 (/home/hamdy/GPGPUs-Workloads/Benchmarks/PolyBench/linear-algebra/gramschmidt/gramschmidt.out)
+setting device 0 with name NVIDIA A100-PCIE-40GB
+GPU Time in seconds:
+0.436456
+==PROF== Disconnected from process 25216
+"ID","Process ID","Process Name","Host Name","Kernel Name","Kernel Time","Context","Stream","Section Name","Metric Name","Metric Unit","Metric Value"
+"0","25216","gramschmidt.out","127.0.0.1","gramschmidt_kernel1(int, int, float*, float*, float*, int)","2023-Jan-01 18:40:18","1","7","Command line profiler metrics","gpu__cycles_active.max","cycle","1,570,068"
+"0","25216","gramschmidt.out","127.0.0.1","gramschmidt_kernel1(int, int, float*, float*, float*, int)","2023-Jan-01 18:40:18","1","7","Command line profiler metrics","gpu__cycles_active.min","cycle","1,570,068"
+"0","25216","gramschmidt.out","127.0.0.1","gramschmidt_kernel1(int, int, float*, float*, float*, int)","2023-Jan-01 18:40:18","1","7","Command line profiler metrics","gpu__cycles_elapsed.max","cycle","1,570,068"
+"0","25216","gramschmidt.out","127.0.0.1","gramschmidt_kernel1(int, int, float*, float*, float*, int)","2023-Jan-01 18:40:18","1","7","Command line profiler metrics","gpu__time_duration.max","nsecond","2,012,992"
+==PROF== Connected to process 25237 (/home/hamdy/GPGPUs-Workloads/Benchmarks/PolyBench/linear-algebra/gramschmidt/gramschmidt.out)
+setting device 0 with name NVIDIA A100-PCIE-40GB
+GPU Time in seconds:
+0.519677
+==PROF== Disconnected from process 25237
+"ID","Process ID","Process Name","Host Name","Kernel Name","Kernel Time","Context","Stream","Section Name","Metric Name","Metric Unit","Metric Value"
+"0","25237","gramschmidt.out","127.0.0.1","gramschmidt_kernel1(int, int, float*, float*, float*, int)","2023-Jan-01 18:40:29","1","7","Command line profiler metrics","sm__cycles_active.sum","cycle","1,587,341"
+==PROF== Connected to process 25258 (/home/hamdy/GPGPUs-Workloads/Benchmarks/PolyBench/linear-algebra/gramschmidt/gramschmidt.out)
+setting device 0 with name NVIDIA A100-PCIE-40GB
+GPU Time in seconds:
+0.451942
+==PROF== Disconnected from process 25258
+"ID","Process ID","Process Name","Host Name","Kernel Name","Kernel Time","Context","Stream","Section Name","Metric Name","Metric Unit","Metric Value"
+"0","25258","gramschmidt.out","127.0.0.1","gramschmidt_kernel1(int, int, float*, float*, float*, int)","2023-Jan-01 18:40:40","1","7","Command line profiler metrics","sm__cycles_elapsed.sum","cycle","166,199,490"
+==PROF== Connected to process 25279 (/home/hamdy/GPGPUs-Workloads/Benchmarks/PolyBench/linear-algebra/gramschmidt/gramschmidt.out)
+setting device 0 with name NVIDIA A100-PCIE-40GB
+GPU Time in seconds:
+0.523545
+==PROF== Disconnected from process 25279
+"ID","Process ID","Process Name","Host Name","Kernel Name","Kernel Time","Context","Stream","Section Name","Metric Name","Metric Unit","Metric Value"
+"0","25279","gramschmidt.out","127.0.0.1","gramschmidt_kernel1(int, int, float*, float*, float*, int)","2023-Jan-01 18:40:52","1","7","Command line profiler metrics","sm__inst_executed_pipe_tensor_op_dmma.max","inst","0"
+"0","25279","gramschmidt.out","127.0.0.1","gramschmidt_kernel1(int, int, float*, float*, float*, int)","2023-Jan-01 18:40:52","1","7","Command line profiler metrics","sm__inst_executed_pipe_tensor_op_hmma.max","inst","2,050"
+"0","25279","gramschmidt.out","127.0.0.1","gramschmidt_kernel1(int, int, float*, float*, float*, int)","2023-Jan-01 18:40:52","1","7","Command line profiler metrics","sm__inst_executed_pipe_tensor_op_imma.max","inst","0"
+==PROF== Connected to process 25308 (/home/hamdy/GPGPUs-Workloads/Benchmarks/PolyBench/linear-algebra/gramschmidt/gramschmidt.out)
+setting device 0 with name NVIDIA A100-PCIE-40GB
+GPU Time in seconds:
+0.521541
+==PROF== Disconnected from process 25308
+"ID","Process ID","Process Name","Host Name","Kernel Name","Kernel Time","Context","Stream","Section Name","Metric Name","Metric Unit","Metric Value"
+"0","25308","gramschmidt.out","127.0.0.1","gramschmidt_kernel1(int, int, float*, float*, float*, int)","2023-Jan-01 18:41:03","1","7","Command line profiler metrics","sm__inst_executed_pipe_tensor_op_dmma.sum","inst","0"
+"0","25308","gramschmidt.out","127.0.0.1","gramschmidt_kernel1(int, int, float*, float*, float*, int)","2023-Jan-01 18:41:03","1","7","Command line profiler metrics","sm__inst_executed_pipe_tensor_op_hmma.sum","inst","2,050"
+"0","25308","gramschmidt.out","127.0.0.1","gramschmidt_kernel1(int, int, float*, float*, float*, int)","2023-Jan-01 18:41:03","1","7","Command line profiler metrics","sm__inst_executed_pipe_tensor_op_imma.sum","inst","0"
+==PROF== Connected to process 25330 (/home/hamdy/GPGPUs-Workloads/Benchmarks/PolyBench/linear-algebra/gramschmidt/gramschmidt.out)
+setting device 0 with name NVIDIA A100-PCIE-40GB
+GPU Time in seconds:
+0.525872
+==PROF== Disconnected from process 25330
+"ID","Process ID","Process Name","Host Name","Kernel Name","Kernel Time","Context","Stream","Section Name","Metric Name","Metric Unit","Metric Value"
+"0","25330","gramschmidt.out","127.0.0.1","gramschmidt_kernel1(int, int, float*, float*, float*, int)","2023-Jan-01 18:41:14","1","7","Command line profiler metrics","sm__pipe_tensor_cycles_active.max","cycle","4,104"
+"0","25330","gramschmidt.out","127.0.0.1","gramschmidt_kernel1(int, int, float*, float*, float*, int)","2023-Jan-01 18:41:14","1","7","Command line profiler metrics","sm__pipe_tensor_op_dmma_cycles_active.max","inst","0"
+"0","25330","gramschmidt.out","127.0.0.1","gramschmidt_kernel1(int, int, float*, float*, float*, int)","2023-Jan-01 18:41:14","1","7","Command line profiler metrics","sm__pipe_tensor_op_hmma_cycles_active.max","cycle","4,104"
+"0","25330","gramschmidt.out","127.0.0.1","gramschmidt_kernel1(int, int, float*, float*, float*, int)","2023-Jan-01 18:41:14","1","7","Command line profiler metrics","sm__pipe_tensor_op_imma_cycles_active.max","cycle","0"
+==PROF== Connected to process 25351 (/home/hamdy/GPGPUs-Workloads/Benchmarks/PolyBench/linear-algebra/gramschmidt/gramschmidt.out)
+setting device 0 with name NVIDIA A100-PCIE-40GB
+GPU Time in seconds:
+0.525656
+==PROF== Disconnected from process 25351
+"ID","Process ID","Process Name","Host Name","Kernel Name","Kernel Time","Context","Stream","Section Name","Metric Name","Metric Unit","Metric Value"
+"0","25351","gramschmidt.out","127.0.0.1","gramschmidt_kernel1(int, int, float*, float*, float*, int)","2023-Jan-01 18:41:26","1","7","Command line profiler metrics","sm__pipe_tensor_cycles_active.sum","cycle","4,104"
+"0","25351","gramschmidt.out","127.0.0.1","gramschmidt_kernel1(int, int, float*, float*, float*, int)","2023-Jan-01 18:41:26","1","7","Command line profiler metrics","sm__pipe_tensor_op_dmma_cycles_active.sum","inst","0"
+"0","25351","gramschmidt.out","127.0.0.1","gramschmidt_kernel1(int, int, float*, float*, float*, int)","2023-Jan-01 18:41:26","1","7","Command line profiler metrics","sm__pipe_tensor_op_hmma_cycles_active.sum","cycle","4,104"
+"0","25351","gramschmidt.out","127.0.0.1","gramschmidt_kernel1(int, int, float*, float*, float*, int)","2023-Jan-01 18:41:26","1","7","Command line profiler metrics","sm__pipe_tensor_op_imma_cycles_active.sum","cycle","0"
+==PROF== Connected to process 25372 (/home/hamdy/GPGPUs-Workloads/Benchmarks/PolyBench/linear-algebra/gramschmidt/gramschmidt.out)
+setting device 0 with name NVIDIA A100-PCIE-40GB
+GPU Time in seconds:
+0.522154
+==PROF== Disconnected from process 25372
+"ID","Process ID","Process Name","Host Name","Kernel Name","Kernel Time","Context","Stream","Section Name","Metric Name","Metric Unit","Metric Value"
+"0","25372","gramschmidt.out","127.0.0.1","gramschmidt_kernel1(int, int, float*, float*, float*, int)","2023-Jan-01 18:41:37","1","7","Command line profiler metrics","sm__inst_executed.sum","inst","100,394"
+==PROF== Connected to process 25393 (/home/hamdy/GPGPUs-Workloads/Benchmarks/PolyBench/linear-algebra/gramschmidt/gramschmidt.out)
+setting device 0 with name NVIDIA A100-PCIE-40GB
+GPU Time in seconds:
+0.524164
+==PROF== Disconnected from process 25393
+"ID","Process ID","Process Name","Host Name","Kernel Name","Kernel Time","Context","Stream","Section Name","Metric Name","Metric Unit","Metric Value"
+"0","25393","gramschmidt.out","127.0.0.1","gramschmidt_kernel1(int, int, float*, float*, float*, int)","2023-Jan-01 18:41:48","1","7","Command line profiler metrics","sm__inst_executed.max","inst","92,330"
+==PROF== Connected to process 25414 (/home/hamdy/GPGPUs-Workloads/Benchmarks/PolyBench/linear-algebra/gramschmidt/gramschmidt.out)
+setting device 0 with name NVIDIA A100-PCIE-40GB
+GPU Time in seconds:
+0.523665
+==PROF== Disconnected from process 25414
+"ID","Process ID","Process Name","Host Name","Kernel Name","Kernel Time","Context","Stream","Section Name","Metric Name","Metric Unit","Metric Value"
+"0","25414","gramschmidt.out","127.0.0.1","gramschmidt_kernel1(int, int, float*, float*, float*, int)","2023-Jan-01 18:41:59","1","7","Command line profiler metrics","sm__inst_executed_pipe_alu.max","inst","12,355"
+==PROF== Connected to process 25443 (/home/hamdy/GPGPUs-Workloads/Benchmarks/PolyBench/linear-algebra/gramschmidt/gramschmidt.out)
+setting device 0 with name NVIDIA A100-PCIE-40GB
+GPU Time in seconds:
+0.522061
+==PROF== Disconnected from process 25443
+"ID","Process ID","Process Name","Host Name","Kernel Name","Kernel Time","Context","Stream","Section Name","Metric Name","Metric Unit","Metric Value"
+"0","25443","gramschmidt.out","127.0.0.1","gramschmidt_kernel1(int, int, float*, float*, float*, int)","2023-Jan-01 18:42:11","1","7","Command line profiler metrics","sm__inst_executed_pipe_fma.max","inst","40,967"
+==PROF== Connected to process 25466 (/home/hamdy/GPGPUs-Workloads/Benchmarks/PolyBench/linear-algebra/gramschmidt/gramschmidt.out)
+setting device 0 with name NVIDIA A100-PCIE-40GB
+GPU Time in seconds:
+0.523753
+==PROF== Disconnected from process 25466
+"ID","Process ID","Process Name","Host Name","Kernel Name","Kernel Time","Context","Stream","Section Name","Metric Name","Metric Unit","Metric Value"
+"0","25466","gramschmidt.out","127.0.0.1","gramschmidt_kernel1(int, int, float*, float*, float*, int)","2023-Jan-01 18:42:22","1","7","Command line profiler metrics","sm__inst_executed_pipe_fp64.max","inst","0"
+==PROF== Connected to process 25487 (/home/hamdy/GPGPUs-Workloads/Benchmarks/PolyBench/linear-algebra/gramschmidt/gramschmidt.out)
+setting device 0 with name NVIDIA A100-PCIE-40GB
+GPU Time in seconds:
+0.522421
+==PROF== Disconnected from process 25487
+"ID","Process ID","Process Name","Host Name","Kernel Name","Kernel Time","Context","Stream","Section Name","Metric Name","Metric Unit","Metric Value"
+"0","25487","gramschmidt.out","127.0.0.1","gramschmidt_kernel1(int, int, float*, float*, float*, int)","2023-Jan-01 18:42:33","1","7","Command line profiler metrics","sm__pipe_alu_cycles_active.max","cycle","24,710"
+==PROF== Connected to process 25508 (/home/hamdy/GPGPUs-Workloads/Benchmarks/PolyBench/linear-algebra/gramschmidt/gramschmidt.out)
+setting device 0 with name NVIDIA A100-PCIE-40GB
+GPU Time in seconds:
+0.518485
+==PROF== Disconnected from process 25508
+"ID","Process ID","Process Name","Host Name","Kernel Name","Kernel Time","Context","Stream","Section Name","Metric Name","Metric Unit","Metric Value"
+"0","25508","gramschmidt.out","127.0.0.1","gramschmidt_kernel1(int, int, float*, float*, float*, int)","2023-Jan-01 18:42:44","1","7","Command line profiler metrics","sm__pipe_fma_cycles_active.max","cycle","81,934"
+==PROF== Connected to process 25529 (/home/hamdy/GPGPUs-Workloads/Benchmarks/PolyBench/linear-algebra/gramschmidt/gramschmidt.out)
+setting device 0 with name NVIDIA A100-PCIE-40GB
+GPU Time in seconds:
+0.521434
+==PROF== Disconnected from process 25529
+"ID","Process ID","Process Name","Host Name","Kernel Name","Kernel Time","Context","Stream","Section Name","Metric Name","Metric Unit","Metric Value"
+"0","25529","gramschmidt.out","127.0.0.1","gramschmidt_kernel1(int, int, float*, float*, float*, int)","2023-Jan-01 18:42:56","1","7","Command line profiler metrics","sm__pipe_fp64_cycles_active.max","cycle","0"

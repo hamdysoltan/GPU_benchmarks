@@ -1,0 +1,36 @@
+==PROF== Connected to process 65875 (/home/hamdy/GPGPUs-Workloads/Benchmarks/PolyBench/linear-algebra/syr2k/syr2k.out)
+==PROF== Profiling "syr2k_kernel" - 1: 0%....50%....100% - 10 passes
+setting device 0 with name NVIDIA A100-PCIE-40GB
+GPU Time in seconds:
+3.918247
+==PROF== Disconnected from process 65875
+[65875] syr2k.out@127.0.0.1
+  syr2k_kernel(int, int, float, float, float*, float*, float*), 2022-Nov-14 02:34:34, Context 1, Stream 7
+    Section: Memory Workload Analysis
+    ---------------------------------------------------------------------- --------------- ------------------------------
+    Memory Throughput                                                         Gbyte/second                           1.38
+    Mem Busy                                                                             %                          75.41
+    Max Bandwidth                                                                        %                           7.91
+    L1/TEX Hit Rate                                                                      %                          98.34
+    L2 Compression Success Rate                                                          %                              0
+    L2 Compression Ratio                                                                                                0
+    L2 Hit Rate                                                                          %                          99.18
+    Mem Pipes Busy                                                                       %                           5.59
+    ---------------------------------------------------------------------- --------------- ------------------------------
+
+    Section: Occupancy
+    ---------------------------------------------------------------------- --------------- ------------------------------
+    Block Limit SM                                                                   block                             32
+    Block Limit Registers                                                            block                             10
+    Block Limit Shared Mem                                                           block                            164
+    Block Limit Warps                                                                block                              8
+    Theoretical Active Warps per SM                                                   warp                             64
+    Theoretical Occupancy                                                                %                            100
+    Achieved Occupancy                                                                   %                          26.62
+    Achieved Active Warps Per SM                                                      warp                          17.04
+    ---------------------------------------------------------------------- --------------- ------------------------------
+    WRN   This kernel's theoretical occupancy is not impacted by any block limit. The difference between calculated     
+          theoretical and measured achieved occupancy can be the result of warp scheduling overheads or workload        
+          imbalances during the kernel execution. Load imbalances can occur between warps within a block as well as     
+          across blocks of the same kernel.                                                                             
+

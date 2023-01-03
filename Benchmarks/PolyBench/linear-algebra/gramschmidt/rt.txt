@@ -1,0 +1,159 @@
+==PROF== Connected to process 125908 (/home/hamdy/GPGPUs-Workloads/Benchmarks/PolyBench/linear-algebra/gramschmidt/gramschmidt.out)
+==PROF== Profiling "gramschmidt_kernel1" - 1: 0%....50%....100% - 10 passes
+==PROF== Profiling "gramschmidt_kernel2" - 2: 0%....50%....100% - 10 passes
+==PROF== Profiling "gramschmidt_kernel3" - 3: 0%....50%....100% - 10 passes
+setting device 0 with name NVIDIA A100-PCIE-40GB
+GPU Time in seconds:
+5.959455
+==PROF== Disconnected from process 125908
+[125908] gramschmidt.out@127.0.0.1
+  gramschmidt_kernel1(int, int, float*, float*, float*, int), 2022-Dec-19 02:41:49, Context 1, Stream 7
+    Section: GPU Speed Of Light
+    ---------------------------------------------------------------------- --------------- ------------------------------
+    DRAM Frequency                                                           cycle/nsecond                           1.19
+    SM Frequency                                                             cycle/usecond                         747.23
+    Elapsed Cycles                                                                   cycle                         25,299
+    Memory [%]                                                                           %                           0.18
+    SOL DRAM                                                                             %                           0.06
+    Duration                                                                       usecond                          33.86
+    SOL L1/TEX Cache                                                                     %                           2.20
+    SOL L2 Cache                                                                         %                           0.18
+    SM Active Cycles                                                                 cycle                         579.91
+    SM [%]                                                                               %                           0.11
+    ---------------------------------------------------------------------- --------------- ------------------------------
+    WRN   This kernel grid is too small to fill the available resources on this device, resulting in only 0.1 full      
+          waves across all SMs. Look at Launch Statistics for more details.                                             
+
+    Section: Launch Statistics
+    ---------------------------------------------------------------------- --------------- ------------------------------
+    Block Size                                                                                                        256
+    Function Cache Configuration                                                                  cudaFuncCachePreferNone
+    Grid Size                                                                                                         108
+    Registers Per Thread                                                   register/thread                             29
+    Shared Memory Configuration Size                                                 Kbyte                          32.77
+    Driver Shared Memory Per Block                                             Kbyte/block                           1.02
+    Dynamic Shared Memory Per Block                                             byte/block                              0
+    Static Shared Memory Per Block                                              byte/block                              0
+    Threads                                                                         thread                         27,648
+    Waves Per SM                                                                                                     0.12
+    ---------------------------------------------------------------------- --------------- ------------------------------
+    WRN   If you execute __syncthreads() to synchronize the threads of a block, it is recommended to have more than the 
+          achieved 1 blocks per multiprocessor. This way, blocks that aren't waiting for __syncthreads() can keep the   
+          hardware busy.                                                                                                
+
+    Section: Occupancy
+    ---------------------------------------------------------------------- --------------- ------------------------------
+    Block Limit SM                                                                   block                             32
+    Block Limit Registers                                                            block                              8
+    Block Limit Shared Mem                                                           block                            164
+    Block Limit Warps                                                                block                              8
+    Theoretical Active Warps per SM                                                   warp                             64
+    Theoretical Occupancy                                                                %                            100
+    Achieved Occupancy                                                                   %                           8.20
+    Achieved Active Warps Per SM                                                      warp                           5.25
+    ---------------------------------------------------------------------- --------------- ------------------------------
+    WRN   This kernel's theoretical occupancy is not impacted by any block limit. The difference between calculated     
+          theoretical and measured achieved occupancy can be the result of warp scheduling overheads or workload        
+          imbalances during the kernel execution. Load imbalances can occur between warps within a block as well as     
+          across blocks of the same kernel.                                                                             
+
+  gramschmidt_kernel2(int, int, float*, float*, float*, int), 2022-Dec-19 02:41:51, Context 1, Stream 7
+    Section: GPU Speed Of Light
+    ---------------------------------------------------------------------- --------------- ------------------------------
+    DRAM Frequency                                                           cycle/nsecond                           1.12
+    SM Frequency                                                             cycle/usecond                         705.65
+    Elapsed Cycles                                                                   cycle                          4,856
+    Memory [%]                                                                           %                           1.00
+    SOL DRAM                                                                             %                           0.33
+    Duration                                                                       usecond                           6.88
+    SOL L1/TEX Cache                                                                     %                           2.23
+    SOL L2 Cache                                                                         %                           1.03
+    SM Active Cycles                                                                 cycle                         789.70
+    SM [%]                                                                               %                           0.42
+    ---------------------------------------------------------------------- --------------- ------------------------------
+    WRN   This kernel grid is too small to fill the available resources on this device, resulting in only 0.1 full      
+          waves across all SMs. Look at Launch Statistics for more details.                                             
+
+    Section: Launch Statistics
+    ---------------------------------------------------------------------- --------------- ------------------------------
+    Block Size                                                                                                        256
+    Function Cache Configuration                                                                  cudaFuncCachePreferNone
+    Grid Size                                                                                                         108
+    Registers Per Thread                                                   register/thread                             16
+    Shared Memory Configuration Size                                                 Kbyte                          32.77
+    Driver Shared Memory Per Block                                             Kbyte/block                           1.02
+    Dynamic Shared Memory Per Block                                             byte/block                              0
+    Static Shared Memory Per Block                                              byte/block                              0
+    Threads                                                                         thread                         27,648
+    Waves Per SM                                                                                                     0.12
+    ---------------------------------------------------------------------- --------------- ------------------------------
+    WRN   If you execute __syncthreads() to synchronize the threads of a block, it is recommended to have more than the 
+          achieved 1 blocks per multiprocessor. This way, blocks that aren't waiting for __syncthreads() can keep the   
+          hardware busy.                                                                                                
+
+    Section: Occupancy
+    ---------------------------------------------------------------------- --------------- ------------------------------
+    Block Limit SM                                                                   block                             32
+    Block Limit Registers                                                            block                             16
+    Block Limit Shared Mem                                                           block                            164
+    Block Limit Warps                                                                block                              8
+    Theoretical Active Warps per SM                                                   warp                             64
+    Theoretical Occupancy                                                                %                            100
+    Achieved Occupancy                                                                   %                          12.25
+    Achieved Active Warps Per SM                                                      warp                           7.84
+    ---------------------------------------------------------------------- --------------- ------------------------------
+    WRN   This kernel's theoretical occupancy is not impacted by any block limit. The difference between calculated     
+          theoretical and measured achieved occupancy can be the result of warp scheduling overheads or workload        
+          imbalances during the kernel execution. Load imbalances can occur between warps within a block as well as     
+          across blocks of the same kernel.                                                                             
+
+  gramschmidt_kernel3(int, int, float*, float*, float*, int), 2022-Dec-19 02:41:53, Context 1, Stream 7
+    Section: GPU Speed Of Light
+    ---------------------------------------------------------------------- --------------- ------------------------------
+    DRAM Frequency                                                           cycle/nsecond                           1.16
+    SM Frequency                                                             cycle/usecond                         730.23
+    Elapsed Cycles                                                                   cycle                          2,899
+    Memory [%]                                                                           %                           1.18
+    SOL DRAM                                                                             %                           0.00
+    Duration                                                                       usecond                           3.97
+    SOL L1/TEX Cache                                                                     %                           0.89
+    SOL L2 Cache                                                                         %                           1.18
+    SM Active Cycles                                                                 cycle                         898.63
+    SM [%]                                                                               %                           0.82
+    ---------------------------------------------------------------------- --------------- ------------------------------
+    WRN   This kernel grid is too small to fill the available resources on this device, resulting in only 0.1 full      
+          waves across all SMs. Look at Launch Statistics for more details.                                             
+
+    Section: Launch Statistics
+    ---------------------------------------------------------------------- --------------- ------------------------------
+    Block Size                                                                                                        256
+    Function Cache Configuration                                                                  cudaFuncCachePreferNone
+    Grid Size                                                                                                         108
+    Registers Per Thread                                                   register/thread                             28
+    Shared Memory Configuration Size                                                 Kbyte                          32.77
+    Driver Shared Memory Per Block                                             Kbyte/block                           1.02
+    Dynamic Shared Memory Per Block                                             byte/block                              0
+    Static Shared Memory Per Block                                              byte/block                              0
+    Threads                                                                         thread                         27,648
+    Waves Per SM                                                                                                     0.12
+    ---------------------------------------------------------------------- --------------- ------------------------------
+    WRN   If you execute __syncthreads() to synchronize the threads of a block, it is recommended to have more than the 
+          achieved 1 blocks per multiprocessor. This way, blocks that aren't waiting for __syncthreads() can keep the   
+          hardware busy.                                                                                                
+
+    Section: Occupancy
+    ---------------------------------------------------------------------- --------------- ------------------------------
+    Block Limit SM                                                                   block                             32
+    Block Limit Registers                                                            block                              8
+    Block Limit Shared Mem                                                           block                            164
+    Block Limit Warps                                                                block                              8
+    Theoretical Active Warps per SM                                                   warp                             64
+    Theoretical Occupancy                                                                %                            100
+    Achieved Occupancy                                                                   %                          12.11
+    Achieved Active Warps Per SM                                                      warp                           7.75
+    ---------------------------------------------------------------------- --------------- ------------------------------
+    WRN   This kernel's theoretical occupancy is not impacted by any block limit. The difference between calculated     
+          theoretical and measured achieved occupancy can be the result of warp scheduling overheads or workload        
+          imbalances during the kernel execution. Load imbalances can occur between warps within a block as well as     
+          across blocks of the same kernel.                                                                             
+

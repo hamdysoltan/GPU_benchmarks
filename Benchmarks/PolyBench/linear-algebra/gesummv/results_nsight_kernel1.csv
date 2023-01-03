@@ -1,0 +1,143 @@
+==PROF== Connected to process 43145 (/home/hamdy/GPGPUs-Workloads/Benchmarks/PolyBench/linear-algebra/gesummv/gesummv.out)
+setting device 0 with name NVIDIA A100-PCIE-40GB
+GPU Time in seconds:
+0.604410
+==PROF== Disconnected from process 43145
+"ID","Process ID","Process Name","Host Name","Kernel Name","Kernel Time","Context","Stream","Section Name","Metric Name","Metric Unit","Metric Value"
+"0","43145","gesummv.out","127.0.0.1","gesummv_kernel(int, float, float, float*, float*, float*, float*, float*)","2022-Oct-31 08:38:07","1","7","Command line profiler metrics","sm__ctas_launched.sum","","4"
+==PROF== Connected to process 43171 (/home/hamdy/GPGPUs-Workloads/Benchmarks/PolyBench/linear-algebra/gesummv/gesummv.out)
+setting device 0 with name NVIDIA A100-PCIE-40GB
+GPU Time in seconds:
+0.732779
+==PROF== Disconnected from process 43171
+"ID","Process ID","Process Name","Host Name","Kernel Name","Kernel Time","Context","Stream","Section Name","Metric Name","Metric Unit","Metric Value"
+"0","43171","gesummv.out","127.0.0.1","gesummv_kernel(int, float, float, float*, float*, float*, float*, float*)","2022-Oct-31 08:38:19","1","7","Command line profiler metrics","l1tex__t_sector_hit_rate.pct","%","90.22"
+"0","43171","gesummv.out","127.0.0.1","gesummv_kernel(int, float, float, float*, float*, float*, float*, float*)","2022-Oct-31 08:38:19","1","7","Command line profiler metrics","l1tex__t_sector_pipe_lsu_mem_global_op_ld_hit_rate.pct","%","89.16"
+"0","43171","gesummv.out","127.0.0.1","gesummv_kernel(int, float, float, float*, float*, float*, float*, float*)","2022-Oct-31 08:38:19","1","7","Command line profiler metrics","lts__t_request_hit_rate.pct","%","73.30"
+==PROF== Connected to process 43194 (/home/hamdy/GPGPUs-Workloads/Benchmarks/PolyBench/linear-algebra/gesummv/gesummv.out)
+setting device 0 with name NVIDIA A100-PCIE-40GB
+GPU Time in seconds:
+0.514633
+==PROF== Disconnected from process 43194
+"ID","Process ID","Process Name","Host Name","Kernel Name","Kernel Time","Context","Stream","Section Name","Metric Name","Metric Unit","Metric Value"
+"0","43194","gesummv.out","127.0.0.1","gesummv_kernel(int, float, float, float*, float*, float*, float*, float*)","2022-Oct-31 08:38:30","1","7","Command line profiler metrics","sm__sass_inst_executed_op_global.sum","inst","262,240"
+"0","43194","gesummv.out","127.0.0.1","gesummv_kernel(int, float, float, float*, float*, float*, float*, float*)","2022-Oct-31 08:38:30","1","7","Command line profiler metrics","sm__sass_inst_executed_op_global_ld.sum","inst","196,672"
+"0","43194","gesummv.out","127.0.0.1","gesummv_kernel(int, float, float, float*, float*, float*, float*, float*)","2022-Oct-31 08:38:30","1","7","Command line profiler metrics","sm__sass_inst_executed_op_global_st.sum","inst","65,568"
+==PROF== Connected to process 43221 (/home/hamdy/GPGPUs-Workloads/Benchmarks/PolyBench/linear-algebra/gesummv/gesummv.out)
+setting device 0 with name NVIDIA A100-PCIE-40GB
+GPU Time in seconds:
+0.523406
+==PROF== Disconnected from process 43221
+"ID","Process ID","Process Name","Host Name","Kernel Name","Kernel Time","Context","Stream","Section Name","Metric Name","Metric Unit","Metric Value"
+"0","43221","gesummv.out","127.0.0.1","gesummv_kernel(int, float, float, float*, float*, float*, float*, float*)","2022-Oct-31 08:38:41","1","7","Command line profiler metrics","gpu__cycles_active.max","cycle","684,938"
+"0","43221","gesummv.out","127.0.0.1","gesummv_kernel(int, float, float, float*, float*, float*, float*, float*)","2022-Oct-31 08:38:41","1","7","Command line profiler metrics","gpu__cycles_active.min","cycle","684,938"
+"0","43221","gesummv.out","127.0.0.1","gesummv_kernel(int, float, float, float*, float*, float*, float*, float*)","2022-Oct-31 08:38:41","1","7","Command line profiler metrics","gpu__cycles_elapsed.max","cycle","684,938"
+"0","43221","gesummv.out","127.0.0.1","gesummv_kernel(int, float, float, float*, float*, float*, float*, float*)","2022-Oct-31 08:38:41","1","7","Command line profiler metrics","gpu__time_duration.max","nsecond","878,176"
+==PROF== Connected to process 43248 (/home/hamdy/GPGPUs-Workloads/Benchmarks/PolyBench/linear-algebra/gesummv/gesummv.out)
+setting device 0 with name NVIDIA A100-PCIE-40GB
+GPU Time in seconds:
+0.608153
+==PROF== Disconnected from process 43248
+"ID","Process ID","Process Name","Host Name","Kernel Name","Kernel Time","Context","Stream","Section Name","Metric Name","Metric Unit","Metric Value"
+"0","43248","gesummv.out","127.0.0.1","gesummv_kernel(int, float, float, float*, float*, float*, float*, float*)","2022-Oct-31 08:38:52","1","7","Command line profiler metrics","sm__cycles_active.sum","cycle","2,677,799"
+==PROF== Connected to process 43269 (/home/hamdy/GPGPUs-Workloads/Benchmarks/PolyBench/linear-algebra/gesummv/gesummv.out)
+setting device 0 with name NVIDIA A100-PCIE-40GB
+GPU Time in seconds:
+0.536744
+==PROF== Disconnected from process 43269
+"ID","Process ID","Process Name","Host Name","Kernel Name","Kernel Time","Context","Stream","Section Name","Metric Name","Metric Unit","Metric Value"
+"0","43269","gesummv.out","127.0.0.1","gesummv_kernel(int, float, float, float*, float*, float*, float*, float*)","2022-Oct-31 08:39:04","1","7","Command line profiler metrics","sm__cycles_elapsed.sum","cycle","72,786,552"
+==PROF== Connected to process 43288 (/home/hamdy/GPGPUs-Workloads/Benchmarks/PolyBench/linear-algebra/gesummv/gesummv.out)
+setting device 0 with name NVIDIA A100-PCIE-40GB
+GPU Time in seconds:
+0.611392
+==PROF== Disconnected from process 43288
+"ID","Process ID","Process Name","Host Name","Kernel Name","Kernel Time","Context","Stream","Section Name","Metric Name","Metric Unit","Metric Value"
+"0","43288","gesummv.out","127.0.0.1","gesummv_kernel(int, float, float, float*, float*, float*, float*, float*)","2022-Oct-31 08:39:15","1","7","Command line profiler metrics","sm__inst_executed_pipe_tensor_op_dmma.max","inst","0"
+"0","43288","gesummv.out","127.0.0.1","gesummv_kernel(int, float, float, float*, float*, float*, float*, float*)","2022-Oct-31 08:39:15","1","7","Command line profiler metrics","sm__inst_executed_pipe_tensor_op_hmma.max","inst","16"
+"0","43288","gesummv.out","127.0.0.1","gesummv_kernel(int, float, float, float*, float*, float*, float*, float*)","2022-Oct-31 08:39:15","1","7","Command line profiler metrics","sm__inst_executed_pipe_tensor_op_imma.max","inst","0"
+==PROF== Connected to process 43312 (/home/hamdy/GPGPUs-Workloads/Benchmarks/PolyBench/linear-algebra/gesummv/gesummv.out)
+setting device 0 with name NVIDIA A100-PCIE-40GB
+GPU Time in seconds:
+0.610827
+==PROF== Disconnected from process 43312
+"ID","Process ID","Process Name","Host Name","Kernel Name","Kernel Time","Context","Stream","Section Name","Metric Name","Metric Unit","Metric Value"
+"0","43312","gesummv.out","127.0.0.1","gesummv_kernel(int, float, float, float*, float*, float*, float*, float*)","2022-Oct-31 08:39:26","1","7","Command line profiler metrics","sm__inst_executed_pipe_tensor_op_dmma.sum","inst","0"
+"0","43312","gesummv.out","127.0.0.1","gesummv_kernel(int, float, float, float*, float*, float*, float*, float*)","2022-Oct-31 08:39:26","1","7","Command line profiler metrics","sm__inst_executed_pipe_tensor_op_hmma.sum","inst","64"
+"0","43312","gesummv.out","127.0.0.1","gesummv_kernel(int, float, float, float*, float*, float*, float*, float*)","2022-Oct-31 08:39:26","1","7","Command line profiler metrics","sm__inst_executed_pipe_tensor_op_imma.sum","inst","0"
+==PROF== Connected to process 43331 (/home/hamdy/GPGPUs-Workloads/Benchmarks/PolyBench/linear-algebra/gesummv/gesummv.out)
+setting device 0 with name NVIDIA A100-PCIE-40GB
+GPU Time in seconds:
+0.609148
+==PROF== Disconnected from process 43331
+"ID","Process ID","Process Name","Host Name","Kernel Name","Kernel Time","Context","Stream","Section Name","Metric Name","Metric Unit","Metric Value"
+"0","43331","gesummv.out","127.0.0.1","gesummv_kernel(int, float, float, float*, float*, float*, float*, float*)","2022-Oct-31 08:39:38","1","7","Command line profiler metrics","sm__pipe_tensor_cycles_active.max","cycle","32"
+"0","43331","gesummv.out","127.0.0.1","gesummv_kernel(int, float, float, float*, float*, float*, float*, float*)","2022-Oct-31 08:39:38","1","7","Command line profiler metrics","sm__pipe_tensor_op_dmma_cycles_active.max","inst","0"
+"0","43331","gesummv.out","127.0.0.1","gesummv_kernel(int, float, float, float*, float*, float*, float*, float*)","2022-Oct-31 08:39:38","1","7","Command line profiler metrics","sm__pipe_tensor_op_hmma_cycles_active.max","cycle","32"
+"0","43331","gesummv.out","127.0.0.1","gesummv_kernel(int, float, float, float*, float*, float*, float*, float*)","2022-Oct-31 08:39:38","1","7","Command line profiler metrics","sm__pipe_tensor_op_imma_cycles_active.max","cycle","0"
+==PROF== Connected to process 43365 (/home/hamdy/GPGPUs-Workloads/Benchmarks/PolyBench/linear-algebra/gesummv/gesummv.out)
+setting device 0 with name NVIDIA A100-PCIE-40GB
+GPU Time in seconds:
+0.609817
+==PROF== Disconnected from process 43365
+"ID","Process ID","Process Name","Host Name","Kernel Name","Kernel Time","Context","Stream","Section Name","Metric Name","Metric Unit","Metric Value"
+"0","43365","gesummv.out","127.0.0.1","gesummv_kernel(int, float, float, float*, float*, float*, float*, float*)","2022-Oct-31 08:39:49","1","7","Command line profiler metrics","sm__pipe_tensor_cycles_active.sum","cycle","128"
+"0","43365","gesummv.out","127.0.0.1","gesummv_kernel(int, float, float, float*, float*, float*, float*, float*)","2022-Oct-31 08:39:49","1","7","Command line profiler metrics","sm__pipe_tensor_op_dmma_cycles_active.sum","inst","0"
+"0","43365","gesummv.out","127.0.0.1","gesummv_kernel(int, float, float, float*, float*, float*, float*, float*)","2022-Oct-31 08:39:49","1","7","Command line profiler metrics","sm__pipe_tensor_op_hmma_cycles_active.sum","cycle","128"
+"0","43365","gesummv.out","127.0.0.1","gesummv_kernel(int, float, float, float*, float*, float*, float*, float*)","2022-Oct-31 08:39:49","1","7","Command line profiler metrics","sm__pipe_tensor_op_imma_cycles_active.sum","cycle","0"
+==PROF== Connected to process 43387 (/home/hamdy/GPGPUs-Workloads/Benchmarks/PolyBench/linear-algebra/gesummv/gesummv.out)
+setting device 0 with name NVIDIA A100-PCIE-40GB
+GPU Time in seconds:
+0.605279
+==PROF== Disconnected from process 43387
+"ID","Process ID","Process Name","Host Name","Kernel Name","Kernel Time","Context","Stream","Section Name","Metric Name","Metric Unit","Metric Value"
+"0","43387","gesummv.out","127.0.0.1","gesummv_kernel(int, float, float, float*, float*, float*, float*, float*)","2022-Oct-31 08:40:00","1","7","Command line profiler metrics","sm__inst_executed.sum","inst","443,552"
+==PROF== Connected to process 43406 (/home/hamdy/GPGPUs-Workloads/Benchmarks/PolyBench/linear-algebra/gesummv/gesummv.out)
+setting device 0 with name NVIDIA A100-PCIE-40GB
+GPU Time in seconds:
+0.606458
+==PROF== Disconnected from process 43406
+"ID","Process ID","Process Name","Host Name","Kernel Name","Kernel Time","Context","Stream","Section Name","Metric Name","Metric Unit","Metric Value"
+"0","43406","gesummv.out","127.0.0.1","gesummv_kernel(int, float, float, float*, float*, float*, float*, float*)","2022-Oct-31 08:40:12","1","7","Command line profiler metrics","sm__inst_executed.max","inst","110,888"
+==PROF== Connected to process 43465 (/home/hamdy/GPGPUs-Workloads/Benchmarks/PolyBench/linear-algebra/gesummv/gesummv.out)
+setting device 0 with name NVIDIA A100-PCIE-40GB
+GPU Time in seconds:
+0.601858
+==PROF== Disconnected from process 43465
+"ID","Process ID","Process Name","Host Name","Kernel Name","Kernel Time","Context","Stream","Section Name","Metric Name","Metric Unit","Metric Value"
+"0","43465","gesummv.out","127.0.0.1","gesummv_kernel(int, float, float, float*, float*, float*, float*, float*)","2022-Oct-31 08:40:23","1","7","Command line profiler metrics","sm__inst_executed_pipe_alu.max","inst","18,528"
+==PROF== Connected to process 43491 (/home/hamdy/GPGPUs-Workloads/Benchmarks/PolyBench/linear-algebra/gesummv/gesummv.out)
+setting device 0 with name NVIDIA A100-PCIE-40GB
+GPU Time in seconds:
+0.609344
+==PROF== Disconnected from process 43491
+"ID","Process ID","Process Name","Host Name","Kernel Name","Kernel Time","Context","Stream","Section Name","Metric Name","Metric Unit","Metric Value"
+"0","43491","gesummv.out","127.0.0.1","gesummv_kernel(int, float, float, float*, float*, float*, float*, float*)","2022-Oct-31 08:40:34","1","7","Command line profiler metrics","sm__inst_executed_pipe_fma.max","inst","24,672"
+==PROF== Connected to process 43518 (/home/hamdy/GPGPUs-Workloads/Benchmarks/PolyBench/linear-algebra/gesummv/gesummv.out)
+setting device 0 with name NVIDIA A100-PCIE-40GB
+GPU Time in seconds:
+0.607286
+==PROF== Disconnected from process 43518
+"ID","Process ID","Process Name","Host Name","Kernel Name","Kernel Time","Context","Stream","Section Name","Metric Name","Metric Unit","Metric Value"
+"0","43518","gesummv.out","127.0.0.1","gesummv_kernel(int, float, float, float*, float*, float*, float*, float*)","2022-Oct-31 08:40:46","1","7","Command line profiler metrics","sm__inst_executed_pipe_fp64.max","inst","0"
+==PROF== Connected to process 43540 (/home/hamdy/GPGPUs-Workloads/Benchmarks/PolyBench/linear-algebra/gesummv/gesummv.out)
+setting device 0 with name NVIDIA A100-PCIE-40GB
+GPU Time in seconds:
+0.602824
+==PROF== Disconnected from process 43540
+"ID","Process ID","Process Name","Host Name","Kernel Name","Kernel Time","Context","Stream","Section Name","Metric Name","Metric Unit","Metric Value"
+"0","43540","gesummv.out","127.0.0.1","gesummv_kernel(int, float, float, float*, float*, float*, float*, float*)","2022-Oct-31 08:40:57","1","7","Command line profiler metrics","sm__pipe_alu_cycles_active.max","cycle","37,056"
+==PROF== Connected to process 43560 (/home/hamdy/GPGPUs-Workloads/Benchmarks/PolyBench/linear-algebra/gesummv/gesummv.out)
+setting device 0 with name NVIDIA A100-PCIE-40GB
+GPU Time in seconds:
+0.607429
+==PROF== Disconnected from process 43560
+"ID","Process ID","Process Name","Host Name","Kernel Name","Kernel Time","Context","Stream","Section Name","Metric Name","Metric Unit","Metric Value"
+"0","43560","gesummv.out","127.0.0.1","gesummv_kernel(int, float, float, float*, float*, float*, float*, float*)","2022-Oct-31 08:41:08","1","7","Command line profiler metrics","sm__pipe_fma_cycles_active.max","cycle","49,344"
+==PROF== Connected to process 43586 (/home/hamdy/GPGPUs-Workloads/Benchmarks/PolyBench/linear-algebra/gesummv/gesummv.out)
+setting device 0 with name NVIDIA A100-PCIE-40GB
+GPU Time in seconds:
+0.606863
+==PROF== Disconnected from process 43586
+"ID","Process ID","Process Name","Host Name","Kernel Name","Kernel Time","Context","Stream","Section Name","Metric Name","Metric Unit","Metric Value"
+"0","43586","gesummv.out","127.0.0.1","gesummv_kernel(int, float, float, float*, float*, float*, float*, float*)","2022-Oct-31 08:41:20","1","7","Command line profiler metrics","sm__pipe_fp64_cycles_active.max","cycle","0"

@@ -1,0 +1,66 @@
+==PROF== Connected to process 65225 (/home/hamdy/GPGPUs-Workloads/Benchmarks/PolyBench/linear-algebra/mvt/mvt.out)
+==PROF== Profiling "mvt_kernel1" - 1: 0%....50%....100% - 10 passes
+==PROF== Profiling "mvt_kernel2" - 2: 0%....50%....100% - 10 passes
+setting device 0 with name NVIDIA A100-PCIE-40GB
+GPU Time in seconds:
+7.800473
+==PROF== Disconnected from process 65225
+[65225] mvt.out@127.0.0.1
+  mvt_kernel1(int, float*, float*, float*), 2022-Nov-14 02:11:14, Context 1, Stream 7
+    Section: Memory Workload Analysis
+    ---------------------------------------------------------------------- --------------- ------------------------------
+    Memory Throughput                                                         Gbyte/second                          10.26
+    Mem Busy                                                                             %                          26.40
+    Max Bandwidth                                                                        %                           2.33
+    L1/TEX Hit Rate                                                                      %                          98.61
+    L2 Compression Success Rate                                                          %                              0
+    L2 Compression Ratio                                                                                                0
+    L2 Hit Rate                                                                          %                          62.05
+    Mem Pipes Busy                                                                       %                           2.33
+    ---------------------------------------------------------------------- --------------- ------------------------------
+
+    Section: Occupancy
+    ---------------------------------------------------------------------- --------------- ------------------------------
+    Block Limit SM                                                                   block                             32
+    Block Limit Registers                                                            block                             10
+    Block Limit Shared Mem                                                           block                            164
+    Block Limit Warps                                                                block                              8
+    Theoretical Active Warps per SM                                                   warp                             64
+    Theoretical Occupancy                                                                %                            100
+    Achieved Occupancy                                                                   %                          12.49
+    Achieved Active Warps Per SM                                                      warp                           8.00
+    ---------------------------------------------------------------------- --------------- ------------------------------
+    WRN   This kernel's theoretical occupancy is not impacted by any block limit. The difference between calculated     
+          theoretical and measured achieved occupancy can be the result of warp scheduling overheads or workload        
+          imbalances during the kernel execution. Load imbalances can occur between warps within a block as well as     
+          across blocks of the same kernel.                                                                             
+
+  mvt_kernel2(int, float*, float*, float*), 2022-Nov-14 02:11:18, Context 1, Stream 7
+    Section: Memory Workload Analysis
+    ---------------------------------------------------------------------- --------------- ------------------------------
+    Memory Throughput                                                         Gbyte/second                           6.14
+    Mem Busy                                                                             %                           1.41
+    Max Bandwidth                                                                        %                           1.39
+    L1/TEX Hit Rate                                                                      %                          94.27
+    L2 Compression Success Rate                                                          %                              0
+    L2 Compression Ratio                                                                                                0
+    L2 Hit Rate                                                                          %                          60.73
+    Mem Pipes Busy                                                                       %                           1.39
+    ---------------------------------------------------------------------- --------------- ------------------------------
+
+    Section: Occupancy
+    ---------------------------------------------------------------------- --------------- ------------------------------
+    Block Limit SM                                                                   block                             32
+    Block Limit Registers                                                            block                             10
+    Block Limit Shared Mem                                                           block                            164
+    Block Limit Warps                                                                block                              8
+    Theoretical Active Warps per SM                                                   warp                             64
+    Theoretical Occupancy                                                                %                            100
+    Achieved Occupancy                                                                   %                          12.50
+    Achieved Active Warps Per SM                                                      warp                           8.00
+    ---------------------------------------------------------------------- --------------- ------------------------------
+    WRN   This kernel's theoretical occupancy is not impacted by any block limit. The difference between calculated     
+          theoretical and measured achieved occupancy can be the result of warp scheduling overheads or workload        
+          imbalances during the kernel execution. Load imbalances can occur between warps within a block as well as     
+          across blocks of the same kernel.                                                                             
+

@@ -1,0 +1,257 @@
+==PROF== Connected to process 83923 (/home/hamdy/GPGPUs-Workloads/Benchmarks/PolyBench/linear-algebra/atax/atax.out)
+setting device 0 with name NVIDIA A100-PCIE-40GB
+ 
+
+
+ The blocks count is 128 . The threads count_x is 64 and count_y 16 
+
+GPU Time in seconds:
+0.621005
+==PROF== Disconnected from process 83923
+"ID","Process ID","Process Name","Host Name","Kernel Name","Kernel Time","Context","Stream","Section Name","Metric Name","Metric Unit","Metric Value"
+"0","83923","atax.out","127.0.0.1","atax_kernel1(int, int, float *, float *, float *)","2022-Nov-24 11:38:17","1","7","Command line profiler metrics","sm__ctas_launched.sum","block","128"
+==PROF== Connected to process 83944 (/home/hamdy/GPGPUs-Workloads/Benchmarks/PolyBench/linear-algebra/atax/atax.out)
+setting device 0 with name NVIDIA A100-PCIE-40GB
+ 
+
+
+ The blocks count is 128 . The threads count_x is 64 and count_y 16 
+
+GPU Time in seconds:
+0.751530
+==PROF== Disconnected from process 83944
+"ID","Process ID","Process Name","Host Name","Kernel Name","Kernel Time","Context","Stream","Section Name","Metric Name","Metric Unit","Metric Value"
+"0","83944","atax.out","127.0.0.1","atax_kernel1(int, int, float *, float *, float *)","2022-Nov-24 11:38:19","1","7","Command line profiler metrics","l1tex__t_sector_hit_rate.pct","%","98.62"
+"0","83944","atax.out","127.0.0.1","atax_kernel1(int, int, float *, float *, float *)","2022-Nov-24 11:38:19","1","7","Command line profiler metrics","l1tex__t_sector_pipe_lsu_mem_global_op_ld_hit_rate.pct","%","98.46"
+"0","83944","atax.out","127.0.0.1","atax_kernel1(int, int, float *, float *, float *)","2022-Nov-24 11:38:19","1","7","Command line profiler metrics","lts__t_request_hit_rate.pct","%","89.06"
+==PROF== Connected to process 83965 (/home/hamdy/GPGPUs-Workloads/Benchmarks/PolyBench/linear-algebra/atax/atax.out)
+setting device 0 with name NVIDIA A100-PCIE-40GB
+ 
+
+
+ The blocks count is 128 . The threads count_x is 64 and count_y 16 
+
+GPU Time in seconds:
+0.665638
+==PROF== Disconnected from process 83965
+"ID","Process ID","Process Name","Host Name","Kernel Name","Kernel Time","Context","Stream","Section Name","Metric Name","Metric Unit","Metric Value"
+"0","83965","atax.out","127.0.0.1","atax_kernel1(int, int, float *, float *, float *)","2022-Nov-24 11:38:21","1","7","Command line profiler metrics","sm__sass_inst_executed_op_global.sum","inst","100,667,392"
+"0","83965","atax.out","127.0.0.1","atax_kernel1(int, int, float *, float *, float *)","2022-Nov-24 11:38:21","1","7","Command line profiler metrics","sm__sass_inst_executed_op_global_ld.sum","inst","67,108,864"
+"0","83965","atax.out","127.0.0.1","atax_kernel1(int, int, float *, float *, float *)","2022-Nov-24 11:38:21","1","7","Command line profiler metrics","sm__sass_inst_executed_op_global_st.sum","inst","33,558,528"
+==PROF== Connected to process 83986 (/home/hamdy/GPGPUs-Workloads/Benchmarks/PolyBench/linear-algebra/atax/atax.out)
+setting device 0 with name NVIDIA A100-PCIE-40GB
+ 
+
+
+ The blocks count is 128 . The threads count_x is 64 and count_y 16 
+
+GPU Time in seconds:
+0.549848
+==PROF== Disconnected from process 83986
+"ID","Process ID","Process Name","Host Name","Kernel Name","Kernel Time","Context","Stream","Section Name","Metric Name","Metric Unit","Metric Value"
+"0","83986","atax.out","127.0.0.1","atax_kernel1(int, int, float *, float *, float *)","2022-Nov-24 11:38:23","1","7","Command line profiler metrics","gpu__cycles_active.max","cycle","18,932,811"
+"0","83986","atax.out","127.0.0.1","atax_kernel1(int, int, float *, float *, float *)","2022-Nov-24 11:38:23","1","7","Command line profiler metrics","gpu__cycles_active.min","cycle","18,932,811"
+"0","83986","atax.out","127.0.0.1","atax_kernel1(int, int, float *, float *, float *)","2022-Nov-24 11:38:23","1","7","Command line profiler metrics","gpu__cycles_elapsed.max","cycle","18,932,811"
+"0","83986","atax.out","127.0.0.1","atax_kernel1(int, int, float *, float *, float *)","2022-Nov-24 11:38:23","1","7","Command line profiler metrics","gpu__time_duration.max","nsecond","24,272,928"
+==PROF== Connected to process 84007 (/home/hamdy/GPGPUs-Workloads/Benchmarks/PolyBench/linear-algebra/atax/atax.out)
+setting device 0 with name NVIDIA A100-PCIE-40GB
+ 
+
+
+ The blocks count is 128 . The threads count_x is 64 and count_y 16 
+
+GPU Time in seconds:
+0.623143
+==PROF== Disconnected from process 84007
+"ID","Process ID","Process Name","Host Name","Kernel Name","Kernel Time","Context","Stream","Section Name","Metric Name","Metric Unit","Metric Value"
+"0","84007","atax.out","127.0.0.1","atax_kernel1(int, int, float *, float *, float *)","2022-Nov-24 11:38:25","1","7","Command line profiler metrics","sm__cycles_active.sum","cycle","1,186,610,224"
+==PROF== Connected to process 84028 (/home/hamdy/GPGPUs-Workloads/Benchmarks/PolyBench/linear-algebra/atax/atax.out)
+setting device 0 with name NVIDIA A100-PCIE-40GB
+ 
+
+
+ The blocks count is 128 . The threads count_x is 64 and count_y 16 
+
+GPU Time in seconds:
+0.557030
+==PROF== Disconnected from process 84028
+"ID","Process ID","Process Name","Host Name","Kernel Name","Kernel Time","Context","Stream","Section Name","Metric Name","Metric Unit","Metric Value"
+"0","84028","atax.out","127.0.0.1","atax_kernel1(int, int, float *, float *, float *)","2022-Nov-24 11:38:27","1","7","Command line profiler metrics","sm__cycles_elapsed.sum","cycle","2,007,659,382"
+==PROF== Connected to process 84049 (/home/hamdy/GPGPUs-Workloads/Benchmarks/PolyBench/linear-algebra/atax/atax.out)
+setting device 0 with name NVIDIA A100-PCIE-40GB
+ 
+
+
+ The blocks count is 128 . The threads count_x is 64 and count_y 16 
+
+GPU Time in seconds:
+0.621283
+==PROF== Disconnected from process 84049
+"ID","Process ID","Process Name","Host Name","Kernel Name","Kernel Time","Context","Stream","Section Name","Metric Name","Metric Unit","Metric Value"
+"0","84049","atax.out","127.0.0.1","atax_kernel1(int, int, float *, float *, float *)","2022-Nov-24 11:38:29","1","7","Command line profiler metrics","sm__cycles_active.max","cycle","18,578,632"
+==PROF== Connected to process 84070 (/home/hamdy/GPGPUs-Workloads/Benchmarks/PolyBench/linear-algebra/atax/atax.out)
+setting device 0 with name NVIDIA A100-PCIE-40GB
+ 
+
+
+ The blocks count is 128 . The threads count_x is 64 and count_y 16 
+
+GPU Time in seconds:
+0.558212
+==PROF== Disconnected from process 84070
+"ID","Process ID","Process Name","Host Name","Kernel Name","Kernel Time","Context","Stream","Section Name","Metric Name","Metric Unit","Metric Value"
+"0","84070","atax.out","127.0.0.1","atax_kernel1(int, int, float *, float *, float *)","2022-Nov-24 11:38:31","1","7","Command line profiler metrics","sm__cycles_elapsed.max","cycle","18,588,905"
+==PROF== Connected to process 84091 (/home/hamdy/GPGPUs-Workloads/Benchmarks/PolyBench/linear-algebra/atax/atax.out)
+setting device 0 with name NVIDIA A100-PCIE-40GB
+ 
+
+
+ The blocks count is 128 . The threads count_x is 64 and count_y 16 
+
+GPU Time in seconds:
+0.625330
+==PROF== Disconnected from process 84091
+"ID","Process ID","Process Name","Host Name","Kernel Name","Kernel Time","Context","Stream","Section Name","Metric Name","Metric Unit","Metric Value"
+"0","84091","atax.out","127.0.0.1","atax_kernel1(int, int, float *, float *, float *)","2022-Nov-24 11:38:33","1","7","Command line profiler metrics","sm__inst_executed_pipe_tensor_op_dmma.max","inst","0"
+"0","84091","atax.out","127.0.0.1","atax_kernel1(int, int, float *, float *, float *)","2022-Nov-24 11:38:33","1","7","Command line profiler metrics","sm__inst_executed_pipe_tensor_op_hmma.max","inst","64"
+"0","84091","atax.out","127.0.0.1","atax_kernel1(int, int, float *, float *, float *)","2022-Nov-24 11:38:33","1","7","Command line profiler metrics","sm__inst_executed_pipe_tensor_op_imma.max","inst","0"
+==PROF== Connected to process 84112 (/home/hamdy/GPGPUs-Workloads/Benchmarks/PolyBench/linear-algebra/atax/atax.out)
+setting device 0 with name NVIDIA A100-PCIE-40GB
+ 
+
+
+ The blocks count is 128 . The threads count_x is 64 and count_y 16 
+
+GPU Time in seconds:
+0.619834
+==PROF== Disconnected from process 84112
+"ID","Process ID","Process Name","Host Name","Kernel Name","Kernel Time","Context","Stream","Section Name","Metric Name","Metric Unit","Metric Value"
+"0","84112","atax.out","127.0.0.1","atax_kernel1(int, int, float *, float *, float *)","2022-Nov-24 11:38:35","1","7","Command line profiler metrics","sm__inst_executed_pipe_tensor_op_dmma.sum","inst","0"
+"0","84112","atax.out","127.0.0.1","atax_kernel1(int, int, float *, float *, float *)","2022-Nov-24 11:38:35","1","7","Command line profiler metrics","sm__inst_executed_pipe_tensor_op_hmma.sum","inst","4,096"
+"0","84112","atax.out","127.0.0.1","atax_kernel1(int, int, float *, float *, float *)","2022-Nov-24 11:38:35","1","7","Command line profiler metrics","sm__inst_executed_pipe_tensor_op_imma.sum","inst","0"
+==PROF== Connected to process 84133 (/home/hamdy/GPGPUs-Workloads/Benchmarks/PolyBench/linear-algebra/atax/atax.out)
+setting device 0 with name NVIDIA A100-PCIE-40GB
+ 
+
+
+ The blocks count is 128 . The threads count_x is 64 and count_y 16 
+
+GPU Time in seconds:
+0.619932
+==PROF== Disconnected from process 84133
+"ID","Process ID","Process Name","Host Name","Kernel Name","Kernel Time","Context","Stream","Section Name","Metric Name","Metric Unit","Metric Value"
+"0","84133","atax.out","127.0.0.1","atax_kernel1(int, int, float *, float *, float *)","2022-Nov-24 11:38:36","1","7","Command line profiler metrics","sm__pipe_tensor_cycles_active.max","cycle","128"
+"0","84133","atax.out","127.0.0.1","atax_kernel1(int, int, float *, float *, float *)","2022-Nov-24 11:38:36","1","7","Command line profiler metrics","sm__pipe_tensor_op_dmma_cycles_active.max","inst","0"
+"0","84133","atax.out","127.0.0.1","atax_kernel1(int, int, float *, float *, float *)","2022-Nov-24 11:38:36","1","7","Command line profiler metrics","sm__pipe_tensor_op_hmma_cycles_active.max","cycle","128"
+"0","84133","atax.out","127.0.0.1","atax_kernel1(int, int, float *, float *, float *)","2022-Nov-24 11:38:36","1","7","Command line profiler metrics","sm__pipe_tensor_op_imma_cycles_active.max","cycle","0"
+==PROF== Connected to process 84154 (/home/hamdy/GPGPUs-Workloads/Benchmarks/PolyBench/linear-algebra/atax/atax.out)
+setting device 0 with name NVIDIA A100-PCIE-40GB
+ 
+
+
+ The blocks count is 128 . The threads count_x is 64 and count_y 16 
+
+GPU Time in seconds:
+0.618849
+==PROF== Disconnected from process 84154
+"ID","Process ID","Process Name","Host Name","Kernel Name","Kernel Time","Context","Stream","Section Name","Metric Name","Metric Unit","Metric Value"
+"0","84154","atax.out","127.0.0.1","atax_kernel1(int, int, float *, float *, float *)","2022-Nov-24 11:38:38","1","7","Command line profiler metrics","sm__pipe_tensor_cycles_active.sum","cycle","8,192"
+"0","84154","atax.out","127.0.0.1","atax_kernel1(int, int, float *, float *, float *)","2022-Nov-24 11:38:38","1","7","Command line profiler metrics","sm__pipe_tensor_op_dmma_cycles_active.sum","inst","0"
+"0","84154","atax.out","127.0.0.1","atax_kernel1(int, int, float *, float *, float *)","2022-Nov-24 11:38:38","1","7","Command line profiler metrics","sm__pipe_tensor_op_hmma_cycles_active.sum","cycle","8,192"
+"0","84154","atax.out","127.0.0.1","atax_kernel1(int, int, float *, float *, float *)","2022-Nov-24 11:38:38","1","7","Command line profiler metrics","sm__pipe_tensor_op_imma_cycles_active.sum","cycle","0"
+==PROF== Connected to process 84175 (/home/hamdy/GPGPUs-Workloads/Benchmarks/PolyBench/linear-algebra/atax/atax.out)
+setting device 0 with name NVIDIA A100-PCIE-40GB
+ 
+
+
+ The blocks count is 128 . The threads count_x is 64 and count_y 16 
+
+GPU Time in seconds:
+0.623372
+==PROF== Disconnected from process 84175
+"ID","Process ID","Process Name","Host Name","Kernel Name","Kernel Time","Context","Stream","Section Name","Metric Name","Metric Unit","Metric Value"
+"0","84175","atax.out","127.0.0.1","atax_kernel1(int, int, float *, float *, float *)","2022-Nov-24 11:38:40","1","7","Command line profiler metrics","sm__inst_executed.sum","inst","159,539,200"
+==PROF== Connected to process 84196 (/home/hamdy/GPGPUs-Workloads/Benchmarks/PolyBench/linear-algebra/atax/atax.out)
+setting device 0 with name NVIDIA A100-PCIE-40GB
+ 
+
+
+ The blocks count is 128 . The threads count_x is 64 and count_y 16 
+
+GPU Time in seconds:
+0.624922
+==PROF== Disconnected from process 84196
+"ID","Process ID","Process Name","Host Name","Kernel Name","Kernel Time","Context","Stream","Section Name","Metric Name","Metric Unit","Metric Value"
+"0","84196","atax.out","127.0.0.1","atax_kernel1(int, int, float *, float *, float *)","2022-Nov-24 11:38:42","1","7","Command line profiler metrics","sm__inst_executed.max","inst","2,492,800"
+==PROF== Connected to process 84217 (/home/hamdy/GPGPUs-Workloads/Benchmarks/PolyBench/linear-algebra/atax/atax.out)
+setting device 0 with name NVIDIA A100-PCIE-40GB
+ 
+
+
+ The blocks count is 128 . The threads count_x is 64 and count_y 16 
+
+GPU Time in seconds:
+0.625104
+==PROF== Disconnected from process 84217
+"ID","Process ID","Process Name","Host Name","Kernel Name","Kernel Time","Context","Stream","Section Name","Metric Name","Metric Unit","Metric Value"
+"0","84217","atax.out","127.0.0.1","atax_kernel1(int, int, float *, float *, float *)","2022-Nov-24 11:38:44","1","7","Command line profiler metrics","sm__inst_executed_pipe_alu.max","inst","263,296"
+==PROF== Connected to process 84238 (/home/hamdy/GPGPUs-Workloads/Benchmarks/PolyBench/linear-algebra/atax/atax.out)
+setting device 0 with name NVIDIA A100-PCIE-40GB
+ 
+
+
+ The blocks count is 128 . The threads count_x is 64 and count_y 16 
+
+GPU Time in seconds:
+0.623356
+==PROF== Disconnected from process 84238
+"ID","Process ID","Process Name","Host Name","Kernel Name","Kernel Time","Context","Stream","Section Name","Metric Name","Metric Unit","Metric Value"
+"0","84238","atax.out","127.0.0.1","atax_kernel1(int, int, float *, float *, float *)","2022-Nov-24 11:38:46","1","7","Command line profiler metrics","sm__inst_executed_pipe_fma.max","inst","623,040"
+==PROF== Connected to process 84267 (/home/hamdy/GPGPUs-Workloads/Benchmarks/PolyBench/linear-algebra/atax/atax.out)
+setting device 0 with name NVIDIA A100-PCIE-40GB
+ 
+
+
+ The blocks count is 128 . The threads count_x is 64 and count_y 16 
+
+GPU Time in seconds:
+0.621728
+==PROF== Disconnected from process 84267
+"ID","Process ID","Process Name","Host Name","Kernel Name","Kernel Time","Context","Stream","Section Name","Metric Name","Metric Unit","Metric Value"
+"0","84267","atax.out","127.0.0.1","atax_kernel1(int, int, float *, float *, float *)","2022-Nov-24 11:38:48","1","7","Command line profiler metrics","sm__inst_executed_pipe_fp64.max","inst","0"
+==PROF== Connected to process 84288 (/home/hamdy/GPGPUs-Workloads/Benchmarks/PolyBench/linear-algebra/atax/atax.out)
+setting device 0 with name NVIDIA A100-PCIE-40GB
+ 
+
+
+ The blocks count is 128 . The threads count_x is 64 and count_y 16 
+
+GPU Time in seconds:
+0.624852
+==PROF== Disconnected from process 84288
+"ID","Process ID","Process Name","Host Name","Kernel Name","Kernel Time","Context","Stream","Section Name","Metric Name","Metric Unit","Metric Value"
+"0","84288","atax.out","127.0.0.1","atax_kernel1(int, int, float *, float *, float *)","2022-Nov-24 11:38:50","1","7","Command line profiler metrics","sm__pipe_alu_cycles_active.max","cycle","526,592"
+==PROF== Connected to process 84309 (/home/hamdy/GPGPUs-Workloads/Benchmarks/PolyBench/linear-algebra/atax/atax.out)
+setting device 0 with name NVIDIA A100-PCIE-40GB
+ 
+
+
+ The blocks count is 128 . The threads count_x is 64 and count_y 16 
+
+GPU Time in seconds:
+0.626069
+==PROF== Disconnected from process 84309
+"ID","Process ID","Process Name","Host Name","Kernel Name","Kernel Time","Context","Stream","Section Name","Metric Name","Metric Unit","Metric Value"
+"0","84309","atax.out","127.0.0.1","atax_kernel1(int, int, float *, float *, float *)","2022-Nov-24 11:38:52","1","7","Command line profiler metrics","sm__pipe_fma_cycles_active.max","cycle","1,246,080"
+==PROF== Connected to process 84330 (/home/hamdy/GPGPUs-Workloads/Benchmarks/PolyBench/linear-algebra/atax/atax.out)
+setting device 0 with name NVIDIA A100-PCIE-40GB
+ 
+
+
+ The blocks count is 128 . The threads count_x is 64 and count_y 16 
+
+GPU Time in seconds:
+0.626373
+==PROF== Disconnected from process 84330
+"ID","Process ID","Process Name","Host Name","Kernel Name","Kernel Time","Context","Stream","Section Name","Metric Name","Metric Unit","Metric Value"
+"0","84330","atax.out","127.0.0.1","atax_kernel1(int, int, float *, float *, float *)","2022-Nov-24 11:38:54","1","7","Command line profiler metrics","sm__pipe_fp64_cycles_active.max","cycle","0"
